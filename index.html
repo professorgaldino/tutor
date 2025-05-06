@@ -202,7 +202,7 @@
             <form id="login-form">
                 <div class="form-group">
                     <label for="username">Usuário:</label>
-                    <input type="text" id="username" required placeholder="Ex: david, emeline">
+                    <input type="text" id="username" required placeholder="Digite David ou Emeline">
                 </div>
                 <div class="form-group">
                     <label for="password">Senha:</label>
@@ -244,71 +244,85 @@
         // Carrega os dados do arquivo JSON
         async function loadAlunosData() {
             try {
-                const response = await fetch('alunotutor.json');
+                console.log('Carregando dados dos alunos...');
+                const response = await fetch('alunossalas.json');
+                
                 if (!response.ok) {
-                    throw new Error('Erro ao carregar os dados dos alunos');
+                    throw new Error(`Erro HTTP! status: ${response.status}`);
                 }
-                alunosData = await response.json();
+                
+                const data = await response.json();
+                
+                // Verifica se a estrutura do JSON está correta
+                if (!data.alunos || !Array.isArray(data.alunos)) {
+                    throw new Error('Estrutura do JSON inválida. Esperado objeto com propriedade "alunos" do tipo array');
+                }
+                
+                alunosData = data;
+                console.log('Dados carregados com sucesso:', alunosData);
+                
             } catch (error) {
-                console.error('Erro:', error);
-                alert('Erro ao carregar os dados dos alunos. Verifique o console para mais detalhes.');
-                // Dados de exemplo em caso de falha
+                console.error('Erro ao carregar dados:', error);
+                
+                // Dados de exemplo para continuar o desenvolvimento
                 alunosData = {
                     "alunos": [
                         {
-                            "nome": "João Silva",
-                            "chamada": 5,
+                            "nome": "João Silva (Exemplo)",
+                            "chamada": 1,
                             "sala": "6a",
-                            "foto": "João Silva.jpg",
-                            "tutor": "david"
+                            "foto": "placeholder.jpg",
+                            "tutor": "David"
                         },
                         {
-                            "nome": "Maria Oliveira",
-                            "chamada": 12,
+                            "nome": "Maria Oliveira (Exemplo)",
+                            "chamada": 2,
                             "sala": "7b",
-                            "foto": "Maria Oliveira.jpg",
-                            "tutor": "emeline"
+                            "foto": "placeholder.jpg",
+                            "tutor": "Emeline"
                         }
                     ]
                 };
+                
+                alert('Dados de exemplo carregados. Verifique: 1) Se o arquivo alunossalas.json existe 2) Se está no mesmo diretório 3) Se o conteúdo é válido');
             }
         }
         
-        // Simulação de autenticação (em um sistema real, isso seria no servidor)
+        // Simulação de autenticação com nomes exatos
         const validUsers = {
-            'david': 'senha123',
-            'emeline': 'senha456',
-            'admin': 'admin123'
+            'David': 'senha123',
+            'Emeline': 'senha456'
         };
         
         // Evento de login
         loginForm.addEventListener('submit', async function(e) {
             e.preventDefault();
             
-            const username = document.getElementById('username').value.toLowerCase();
+            // Mantém a capitalização exata do input
+            const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
             
-            // Carrega os dados antes de verificar o login
             await loadAlunosData();
             
+            // Verifica com correspondência exata (case-sensitive)
             if (validUsers[username] && validUsers[username] === password) {
-                currentTutor = username;
+                currentTutor = username; // Preserva a capitalização exata
                 loginContainer.style.display = 'none';
                 studentsContainer.style.display = 'block';
-                welcomeMessage.textContent = `Bem-vindo(a), ${capitalizeFirstLetter(username)}! Seus tutorados:`;
+                welcomeMessage.textContent = `Bem-vindo(a), ${username}! Seus tutorados:`;
                 loadStudents(username);
             } else {
-                alert('Usuário ou senha incorretos!');
+                alert('Usuário ou senha incorretos! Use "David" ou "Emeline" como usuário');
             }
         });
         
-        // Carrega os alunos do tutor
+        // Carrega os alunos do tutor com correspondência exata
         function loadStudents(tutor) {
             studentGrid.innerHTML = '';
             
-            // Filtra os alunos pelo tutor atual
+            // Filtra com correspondência exata (case-sensitive)
             const alunosDoTutor = alunosData.alunos.filter(aluno => 
-                aluno.tutor.toLowerCase() === tutor.toLowerCase()
+                aluno.tutor === tutor
             );
             
             if (alunosDoTutor.length === 0) {
@@ -359,10 +373,10 @@
             }
         }
         
-        // Capitaliza a primeira letra de uma string
-        function capitalizeFirstLetter(string) {
-            return string.charAt(0).toUpperCase() + string.slice(1);
-        }
+        // Carrega os dados quando a página é aberta
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Página carregada. Pronto para autenticação.');
+        });
     </script>
 </body>
 </html>
