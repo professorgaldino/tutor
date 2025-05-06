@@ -1,0 +1,263 @@
+{
+  "alunos": [
+    {
+      "sala": "6a",
+      "chamada": 1,
+      "nome": "ANA CLARA FERREIRA DA SILVA",
+      "tutor": "Fabiana",
+      "foto": "ANA CLARA FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 2,
+      "nome": "ELOAH HADASSA FERREIRA PENTEADO",
+      "tutor": "David",
+      "foto": "ELOAH HADASSA FERREIRA PENTEADO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 3,
+      "nome": "JORGE LOURENÇO FERREIRA DA SILVA",
+      "tutor": "Beatriz M",
+      "foto": "JORGE LOURENÇO FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 4,
+      "nome": "LORENA VITÓRIA SILVA",
+      "tutor": "Beatriz M",
+      "foto": "LORENA VITÓRIA SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 5,
+      "nome": "RICHARD GUILHERME GERMANO DO PRADO",
+      "tutor": "Beatriz M",
+      "foto": "RICHARD GUILHERME GERMANO DO PRADO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 6,
+      "nome": "LORRANY BEATRIZ BARBOSA BATISTA",
+      "tutor": "Fernando",
+      "foto": "LORRANY BEATRIZ BARBOSA BATISTA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 8,
+      "nome": "FLAVIA EMANUELLY DE OLIVEIRA",
+      "tutor": "Rebeca",
+      "foto": "FLAVIA EMANUELLY DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 9,
+      "nome": "MARIA IZABELLA MARQUES DE OLIVEIRA",
+      "tutor": "Beatriz M",
+      "foto": "MARIA IZABELLA MARQUES DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 10,
+      "nome": "SAMUEL DAVI FERREIRA DE SENA",
+      "tutor": "Daniel",
+      "foto": "SAMUEL DAVI FERREIRA DE SENA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 11,
+      "nome": "CARLOS HENRIQUE DA SILVA",
+      "tutor": "Renato",
+      "foto": "CARLOS HENRIQUE DA SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 12,
+      "nome": "DEYVID FELIPE DE OLIVEIRA MACHARET DO NASCIMENTO",
+      "tutor": "Beatriz M",
+      "foto": "DEYVID FELIPE DE OLIVEIRA MACHARET DO NASCIMENTO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 13,
+      "nome": "EDUARDO EZEQUIEL ZIEMELS",
+      "tutor": "Rebeca",
+      "foto": "EDUARDO EZEQUIEL ZIEMELS.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 14,
+      "nome": "EDUARDO MIGUEL BACARIM DOS SANTOS EURINIDIO",
+      "tutor": "Beatriz M",
+      "foto": "EDUARDO MIGUEL BACARIM DOS SANTOS EURINIDIO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 15,
+      "nome": "NICOLAS GUILHERME VALENTIM DA SILVA",
+      "tutor": "Beatriz M",
+      "foto": "NICOLAS GUILHERME VALENTIM DA SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 16,
+      "nome": "VALENTINA MARIANO",
+      "tutor": "Daniel",
+      "foto": "VALENTINA MARIANO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 17,
+      "nome": "JÚLIA MARA DE MELO",
+      "tutor": "Rebeca",
+      "foto": "JÚLIA MARA DE MELO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 19,
+      "nome": "YASMIM VITÓRIA VICENTE",
+      "tutor": "Daniel",
+      "foto": "YASMIM VITÓRIA VICENTE.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 20,
+      "nome": "GABRIELA VITORIA DOS SANTOS",
+      "tutor": "Beatriz M",
+      "foto": "GABRIELA VITORIA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 21,
+      "nome": "MARCELA LAIS DE MELO",
+      "tutor": "Rebeca",
+      "foto": "MARCELA LAIS DE MELO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 22,
+      "nome": "KAUÃ LEMES NASCIMENTO DA SILVA",
+      "tutor": "Aline A",
+      "foto": "KAUÃ LEMES NASCIMENTO DA SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 23,
+      "nome": "VITÓRIA EMANUELE APARECIDA VICENTE",
+      "tutor": "Beatriz M",
+      "foto": "VITÓRIA EMANUELE APARECIDA VICENTE.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 24,
+      "nome": "EMILLY GOES ANACLETO",
+      "tutor": "Beatriz M",
+      "foto": "EMILLY GOES ANACLETO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 25,
+      "nome": "NICOLLY PEREIRA DA SILVA",
+      "tutor": "Cristiane",
+      "foto": "NICOLLY PEREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 26,
+      "nome": "GIOVANA GABRIELLA PEROCCI OTI",
+      "tutor": "Beatriz M",
+      "foto": "GIOVANA GABRIELLA PEROCCI OTI.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 27,
+      "nome": "JONAS SILVA ALVES",
+      "tutor": "Rebeca",
+      "foto": "JONAS SILVA ALVES.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 28,
+      "nome": "JOÃO HENRIQUE BARBOSA",
+      "tutor": "Beatriz M",
+      "foto": "JOÃO HENRIQUE BARBOSA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 29,
+      "nome": "KETLYN VITORIA PORFIRIO CARVALHO",
+      "tutor": "Cristiane",
+      "foto": "KETLYN VITORIA PORFIRIO CARVALHO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 30,
+      "nome": "EMANUELLY SILVA VIEIRA",
+      "tutor": "Emeline",
+      "foto": "EMANUELLY SILVA VIEIRA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 32,
+      "nome": "ENZO HENRIQUE DA SILVA ANDRADE",
+      "tutor": "Daniel",
+      "foto": "ENZO HENRIQUE DA SILVA ANDRADE.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 33,
+      "nome": "LEVY DOMINGUES COELHO",
+      "tutor": "Fabiana",
+      "foto": "LEVY DOMINGUES COELHO.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 34,
+      "nome": "YURI MIGUEL MOREIRA MARTINS DOS SANTOS",
+      "tutor": "Daniel",
+      "foto": "YURI MIGUEL MOREIRA MARTINS DOS SANTOS.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 35,
+      "nome": "PEDRO LUCAS CAROLINO MACHARET",
+      "tutor": "Renato",
+      "foto": "PEDRO LUCAS CAROLINO MACHARET.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 36,
+      "nome": "BRUNA GABRIELLY DE OLIVEIRA",
+      "tutor": "Fabiana",
+      "foto": "BRUNA GABRIELLY DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 37,
+      "nome": "JOÃO LUCAS RODRIGUES DE FREITAS",
+      "tutor": "Rebeca",
+      "foto": "JOÃO LUCAS RODRIGUES DE FREITAS.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 38,
+      "nome": "ANA LAURA MANOEL",
+      "tutor": "David",
+      "foto": "ANA LAURA MANOEL.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 39,
+      "nome": "PIETRO RAFAEL DE OLIVEIRA LIRA",
+      "tutor": "NC",
+      "foto": "PIETRO RAFAEL DE OLIVEIRA LIRA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 41,
+      "nome": "KAUA ALVES RAMOS DE SOUZA",
+      "tutor": "Aline A",
+      "foto": "KAUA ALVES RAMOS DE SOUZA.jpg"
+    }
+  ]
+}
