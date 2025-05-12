@@ -9,29 +9,24 @@
             box-sizing: border-box;
             font-family: 'Arial', sans-serif;
         }
-        
         body {
             margin: 0;
             padding: 0;
             background-color: #f5f5f5;
         }
-        
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-        
         header {
             text-align: center;
             margin-bottom: 30px;
         }
-        
         .logo {
             max-width: 200px;
             height: auto;
         }
-        
         .login-container {
             background: white;
             padding: 30px;
@@ -40,24 +35,20 @@
             max-width: 400px;
             margin: 0 auto;
         }
-        
         .form-group {
             margin-bottom: 20px;
         }
-        
         label {
             display: block;
             margin-bottom: 5px;
             font-weight: bold;
         }
-        
         input {
             width: 100%;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
         }
-        
         button {
             background-color: #4CAF50;
             color: white;
@@ -67,18 +58,15 @@
             cursor: pointer;
             width: 100%;
         }
-        
         .students-container {
             display: none;
             margin-top: 30px;
         }
-        
         .student-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
             gap: 25px;
         }
-        
         .student-card {
             background: white;
             border-radius: 10px;
@@ -89,12 +77,10 @@
             transition: transform 0.3s;
             padding: 15px;
         }
-        
         .student-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
-        
         .photo-container {
             width: 120px;
             height: 120px;
@@ -107,29 +93,24 @@
             justify-content: center;
             background-color: #f0f0f0;
         }
-        
         .student-photo {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        
         .student-info {
             padding: 0 5px;
         }
-        
         .student-info h3 {
             margin: 0 0 5px 0;
             color: #333;
             font-size: 16px;
         }
-        
         .student-info p {
             margin: 3px 0;
             color: #666;
             font-size: 14px;
         }
-        
         .modal {
             display: none;
             position: fixed;
@@ -140,7 +121,6 @@
             background-color: rgba(0,0,0,0.7);
             z-index: 1000;
         }
-        
         .modal-content {
             position: absolute;
             top: 50%;
@@ -152,7 +132,6 @@
             border-radius: 8px;
             overflow: hidden;
         }
-        
         .close-btn {
             position: absolute;
             top: 10px;
@@ -162,13 +141,11 @@
             cursor: pointer;
             z-index: 1001;
         }
-        
         iframe {
             width: 100%;
             height: 100%;
             border: none;
         }
-        
         .welcome-message {
             text-align: center;
             margin-bottom: 30px;
@@ -179,7 +156,6 @@
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        
         .no-students {
             text-align: center;
             grid-column: 1 / -1;
@@ -196,7 +172,6 @@
             <img src="logoescola.png" alt="Logo da Escola" class="logo">
             <h1>Portal de Tutores</h1>
         </header>
-        
         <div id="login-container" class="login-container">
             <h2>Login do Tutor</h2>
             <form id="login-form">
@@ -211,24 +186,18 @@
                 <button type="submit">Entrar</button>
             </form>
         </div>
-        
         <div id="students-container" class="students-container">
             <div id="welcome-message" class="welcome-message"></div>
-            <div id="student-grid" class="student-grid">
-                <!-- Alunos serão carregados aqui via JavaScript -->
-            </div>
+            <div id="student-grid" class="student-grid"></div>
         </div>
     </div>
-    
     <div id="student-modal" class="modal">
         <span class="close-btn" onclick="closeModal()">&times;</span>
         <div class="modal-content">
             <iframe id="student-frame" src=""></iframe>
         </div>
     </div>
-    
     <script>
-        // Elementos DOM
         const loginForm = document.getElementById('login-form');
         const loginContainer = document.getElementById('login-container');
         const studentsContainer = document.getElementById('students-container');
@@ -236,147 +205,86 @@
         const modal = document.getElementById('student-modal');
         const studentFrame = document.getElementById('student-frame');
         const welcomeMessage = document.getElementById('welcome-message');
-        
-        // Variáveis globais
         let alunosData = [];
         let currentTutor = '';
-        
-        // Carrega os dados do arquivo JSON
+
         async function loadAlunosData() {
             try {
-                console.log('Carregando dados dos alunos...');
                 const response = await fetch('alunossalas.json');
-                
-                if (!response.ok) {
-                    throw new Error(`Erro HTTP! status: ${response.status}`);
-                }
-                
+                if (!response.ok) throw new Error(`Erro HTTP! status: ${response.status}`);
                 const data = await response.json();
-                
-                // Verifica se a estrutura do JSON está correta
-                if (!data.alunos || !Array.isArray(data.alunos)) {
-                    throw new Error('Estrutura do JSON inválida. Esperado objeto com propriedade "alunos" do tipo array');
-                }
-                
+                if (!data.alunos || !Array.isArray(data.alunos)) throw new Error('Estrutura do JSON inválida');
                 alunosData = data;
-                console.log('Dados carregados com sucesso:', alunosData);
-                
             } catch (error) {
                 console.error('Erro ao carregar dados:', error);
-                
-                // Dados de exemplo para continuar o desenvolvimento
                 alunosData = {
                     "alunos": [
-                        {
-                            "nome": "João Silva (Exemplo)",
-                            "chamada": 1,
-                            "sala": "6a",
-                            "foto": "placeholder.jpg",
-                            "tutor": "David"
-                        },
-                        {
-                            "nome": "Maria Oliveira (Exemplo)",
-                            "chamada": 2,
-                            "sala": "7b",
-                            "foto": "placeholder.jpg",
-                            "tutor": "Emeline"
-                        }
+                        {"nome": "João Silva (Exemplo)", "chamada": 1, "sala": "6a", "foto": "placeholder.jpg", "tutor": "David"},
+                        {"nome": "Maria Oliveira (Exemplo)", "chamada": 2, "sala": "7b", "foto": "placeholder.jpg", "tutor": "Emeline"}
                     ]
                 };
-                
-                alert('Dados de exemplo carregados. Verifique: 1) Se o arquivo alunossalas.json existe 2) Se está no mesmo diretório 3) Se o conteúdo é válido');
+                alert('Erro ao carregar dados reais. Dados de exemplo carregados.');
             }
         }
-        
-        // Simulação de autenticação com nomes exatos
-        const validUsers = {
-            'David': 'senha123',
-            'Emeline': 'senha456'
-        };
-        
-        // Evento de login
+
+        const validUsers = { 'David': 'senha123', 'Emeline': 'senha456' };
+
         loginForm.addEventListener('submit', async function(e) {
             e.preventDefault();
-            
-            // Mantém a capitalização exata do input
             const username = document.getElementById('username').value;
             const password = document.getElementById('password').value;
-            
             await loadAlunosData();
-            
-            // Verifica com correspondência exata (case-sensitive)
             if (validUsers[username] && validUsers[username] === password) {
-                currentTutor = username; // Preserva a capitalização exata
+                currentTutor = username;
                 loginContainer.style.display = 'none';
                 studentsContainer.style.display = 'block';
                 welcomeMessage.textContent = `Bem-vindo(a), ${username}! Seus tutorados:`;
                 loadStudents(username);
             } else {
-                alert('Usuário ou senha incorretos! Use "David" ou "Emeline" como usuário');
+                alert('Usuário ou senha incorretos! Use "David" ou "Emeline".');
             }
         });
-        
-        // Carrega os alunos do tutor com correspondência exata
+
         function loadStudents(tutor) {
             studentGrid.innerHTML = '';
-            
-            // Filtra com correspondência exata (case-sensitive)
-            const alunosDoTutor = alunosData.alunos.filter(aluno => 
-                aluno.tutor === tutor
-            );
-            
+            const alunosDoTutor = alunosData.alunos.filter(aluno => aluno.tutor === tutor);
             if (alunosDoTutor.length === 0) {
                 studentGrid.innerHTML = '<div class="no-students">Nenhum aluno encontrado para este tutor.</div>';
                 return;
             }
-            
-            // Ordena por número de chamada
             alunosDoTutor.sort((a, b) => a.chamada - b.chamada);
-            
             alunosDoTutor.forEach(aluno => {
                 const card = document.createElement('div');
                 card.className = 'student-card';
                 card.onclick = () => openStudentPage(aluno);
-                
                 card.innerHTML = `
                     <div class="photo-container">
                         <img src="${aluno.foto}" alt="${aluno.nome}" class="student-photo" onerror="this.src='placeholder.jpg'">
                     </div>
                     <div class="student-info">
                         <h3>${aluno.nome}</h3>
-                        <p>Sala: ${aluno.sala.toUpperCase()}</p>
+                        <p>Sala: ${aluno.sala}</p>
                         <p>Chamada: ${aluno.chamada}</p>
                     </div>
                 `;
-                
                 studentGrid.appendChild(card);
             });
         }
-        
-        // Abre a página do aluno no modal
+
         function openStudentPage(aluno) {
-            const url = `https://professorgaldino.github.io/${aluno.sala}/a${aluno.chamada}.html`;
-            studentFrame.src = url;
+            const nomeArquivo = `${aluno.sala.toLowerCase()}${aluno.chamada}.html`;
+            studentFrame.src = nomeArquivo;
             modal.style.display = 'block';
         }
-        
-        // Fecha o modal
+
         function closeModal() {
             modal.style.display = 'none';
             studentFrame.src = '';
         }
-        
-        // Fecha o modal ao clicar fora
+
         window.onclick = function(event) {
-            if (event.target === modal) {
-                closeModal();
-            }
+            if (event.target === modal) closeModal();
         }
-        
-        // Carrega os dados quando a página é aberta
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Página carregada. Pronto para autenticação.');
-        });
     </script>
 </body>
 </html>
