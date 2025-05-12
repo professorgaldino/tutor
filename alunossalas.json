@@ -1,333 +1,3672 @@
 {
   "alunos": [
     {
-      "sala": "6a",
+      "sala": "1A",
+      "chamada": 2,
+      "nome": "ADVAN GABRIEL SEBASTIÃO FAQUINETI",
+      "tutor": "Gabriel Marques",
+      "foto": "ADVAN GABRIEL SEBASTIÃO FAQUINETI.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 3,
+      "nome": "ANA LÍVIA DA RÓSA FARIAS",
+      "tutor": "Marcia",
+      "foto": "ANA LÍVIA DA RÓSA FARIAS.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 4,
+      "nome": "ANA VITORIA DE OLIVEIRA",
+      "tutor": "Guilherme",
+      "foto": "ANA VITORIA DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 5,
+      "nome": "ANDRÉ KAUAN MACEDO DE SOUZA",
+      "tutor": "Everton",
+      "foto": "ANDRÉ KAUAN MACEDO DE SOUZA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 7,
+      "nome": "CHRISTYAN MIGUEL MUNIZ DE OLIVEIRA",
+      "tutor": "Edivaldo",
+      "foto": "CHRISTYAN MIGUEL MUNIZ DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 9,
+      "nome": "DÉBORA LUANA DA SILVA",
+      "tutor": "Josi",
+      "foto": "DÉBORA LUANA DA SILVA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 11,
+      "nome": "GABRIEL REIS MARTINS",
+      "tutor": "Edivaldo",
+      "foto": "GABRIEL REIS MARTINS.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 12,
+      "nome": "GABRIELLE VICTORIA FERREIRA",
+      "tutor": "Guilherme",
+      "foto": "GABRIELLE VICTORIA FERREIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 14,
+      "nome": "HENRIQUE MARTINS",
+      "tutor": "Marcia",
+      "foto": "HENRIQUE MARTINS.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 15,
+      "nome": "JHULLIA ANTONYELLY ANDRADE JESUS",
+      "tutor": "Gabriel Nero",
+      "foto": "JHULLIA ANTONYELLY ANDRADE JESUS.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 17,
+      "nome": "JOHN WINCHESTER PIQUER",
+      "tutor": "Dener",
+      "foto": "JOHN WINCHESTER PIQUER.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 18,
+      "nome": "JUAN HENRIQUE DE CARVALHO",
+      "tutor": "Gabriel Nero",
+      "foto": "JUAN HENRIQUE DE CARVALHO.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 19,
+      "nome": "JÚLIA NICOLY TEIXEIRA",
+      "tutor": "Josi",
+      "foto": "JÚLIA NICOLY TEIXEIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 21,
+      "nome": "LARA REIS DE OLIVEIRA",
+      "tutor": "Gabriel Nero",
+      "foto": "LARA REIS DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 22,
+      "nome": "LAURA BUZATO OLIVEIRA",
+      "tutor": "Gabriel Nero",
+      "foto": "LAURA BUZATO OLIVEIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 23,
+      "nome": "LETÍCIA SILVA ALVES",
+      "tutor": "Márcia",
+      "foto": "LETÍCIA SILVA ALVES.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 24,
+      "nome": "LUCAS DONISETI LASARINO",
+      "tutor": "Gabriel Nero",
+      "foto": "LUCAS DONISETI LASARINO.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 25,
+      "nome": "LUIZ GUSTAVO TAGLIOLATTO DOS SANTOS",
+      "tutor": "Dener",
+      "foto": "LUIZ GUSTAVO TAGLIOLATTO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 26,
+      "nome": "LUIZ OCTÁVIO RODRIGUES TRESSOLDI",
+      "tutor": "Guilherme",
+      "foto": "LUIZ OCTÁVIO RODRIGUES TRESSOLDI.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 27,
+      "nome": "MARIANNY DE OLIVEIRA MACHADO",
+      "tutor": "Josi",
+      "foto": "MARIANNY DE OLIVEIRA MACHADO.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 28,
+      "nome": "MIGUEL GIMENEZ PEREIRA",
+      "tutor": "Marcia",
+      "foto": "MIGUEL GIMENEZ PEREIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 29,
+      "nome": "NATALIA LUIZA MALTA",
+      "tutor": "Guilherme",
+      "foto": "NATALIA LUIZA MALTA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 30,
+      "nome": "NÍCOLAS GABRIEL ALVES MATOS DA SILVA",
+      "tutor": "Dener",
+      "foto": "NÍCOLAS GABRIEL ALVES MATOS DA SILVA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 31,
+      "nome": "NICOLLY GABRIELLY MARIANO PALOMO",
+      "tutor": "Guilherme",
+      "foto": "NICOLLY GABRIELLY MARIANO PALOMO.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 32,
+      "nome": "NICOLLY RAMOS FERREIRA DE SOUZA",
+      "tutor": "Josi",
+      "foto": "NICOLLY RAMOS FERREIRA DE SOUZA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 33,
+      "nome": "RAFAEL VINÍCIUS REFUNDINI",
+      "tutor": "Dener",
+      "foto": "RAFAEL VINÍCIUS REFUNDINI.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 34,
+      "nome": "TALITA GABRIELA SILVA FERREIRA",
+      "tutor": "Dener",
+      "foto": "TALITA GABRIELA SILVA FERREIRA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 35,
+      "nome": "THAYLA EDUARDA MOTERANI DA SILVA",
+      "tutor": "Josi",
+      "foto": "THAYLA EDUARDA MOTERANI DA SILVA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 37,
+      "nome": "WÁLISSON ARAUJO JULIARI",
+      "tutor": "Marcia",
+      "foto": "WÁLISSON ARAUJO JULIARI.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 38,
+      "nome": "WARLEY RIQUELME DA SILVA",
+      "tutor": "Josi",
+      "foto": "WARLEY RIQUELME DA SILVA.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 40,
+      "nome": "WENDEL ALEXSANDRO DOS SANTOS BENTO",
+      "tutor": "Everton",
+      "foto": "WENDEL ALEXSANDRO DOS SANTOS BENTO.jpg"
+    },
+    {
+      "sala": "1A",
+      "chamada": 41,
+      "nome": "",
+      "tutor": "HENRIQUE EMANUEL TEODORO",
+      "foto": ".jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 1,
+      "nome": "ALEXANDRE ALVES CORSINI",
+      "tutor": "Gabriel Nero",
+      "foto": "ALEXANDRE ALVES CORSINI.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 2,
+      "nome": "ANA GABRIELE CARDOSO",
+      "tutor": "Edivaldo",
+      "foto": "ANA GABRIELE CARDOSO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 4,
+      "nome": "BEATRIZ ALVES VICENTE",
+      "tutor": "Gabriel Nero",
+      "foto": "BEATRIZ ALVES VICENTE.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 7,
+      "nome": "CAMILE VITÓRIA FERREIRA LABEGALINI",
+      "tutor": "Guilherme",
+      "foto": "CAMILE VITÓRIA FERREIRA LABEGALINI.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 8,
+      "nome": "DALILA ALESSANDRA DE LIMA ALVES",
+      "tutor": "Josi",
+      "foto": "DALILA ALESSANDRA DE LIMA ALVES.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 9,
+      "nome": "DANIEL DE SOUZA LIMA",
+      "tutor": "Guilherme",
+      "foto": "DANIEL DE SOUZA LIMA.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 11,
+      "nome": "EMANUEL BARBOSA PEREIRA SALES",
+      "tutor": "Gabriel Marques",
+      "foto": "EMANUEL BARBOSA PEREIRA SALES.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 12,
+      "nome": "EMILY MACENA RAULINO",
+      "tutor": "Everton",
+      "foto": "EMILY MACENA RAULINO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 13,
+      "nome": "ÉVELYN LETÍCIA CAMPOS",
+      "tutor": "Guilherme",
+      "foto": "ÉVELYN LETÍCIA CAMPOS.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 14,
+      "nome": "FELLIPE SILVA TORRES",
+      "tutor": "Gabriel Marques",
+      "foto": "FELLIPE SILVA TORRES.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 18,
+      "nome": "ISAAC FRANCISCO NUNES",
+      "tutor": "Edivaldo",
+      "foto": "ISAAC FRANCISCO NUNES.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 22,
+      "nome": "KETERLYN CAROLAINE DA SILVA MIRANDA",
+      "tutor": "Guilherme",
+      "foto": "KETERLYN CAROLAINE DA SILVA MIRANDA.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 23,
+      "nome": "LARISSA ALVES CORSINI",
+      "tutor": "Gabriel Marques",
+      "foto": "LARISSA ALVES CORSINI.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 24,
+      "nome": "LARISSA LOPES GOMES",
+      "tutor": "Guilherme",
+      "foto": "LARISSA LOPES GOMES.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 26,
+      "nome": "LUCAS PEDRO CARDOSO",
+      "tutor": "Gabriel Nero",
+      "foto": "LUCAS PEDRO CARDOSO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 27,
+      "nome": "LUÍS FERNANDO FERREIRA DA SILVA",
+      "tutor": "Edivaldo",
+      "foto": "LUÍS FERNANDO FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 28,
+      "nome": "LUÍS GUILHERME MOREIRA DE JESUS BERNARDO",
+      "tutor": "Gabriel Nero",
+      "foto": "LUÍS GUILHERME MOREIRA DE JESUS BERNARDO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 30,
+      "nome": "MARCOS WILLIAM FERREIRA ROBERTO",
+      "tutor": "Gabriel Marques",
+      "foto": "MARCOS WILLIAM FERREIRA ROBERTO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 31,
+      "nome": "MARIA CLARA DE MORAES ROBERTO",
+      "tutor": "Gabriel Marques",
+      "foto": "MARIA CLARA DE MORAES ROBERTO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 33,
+      "nome": "MATHEUS GABRIEL LIMA PIRES",
+      "tutor": "Gabriel Marques",
+      "foto": "MATHEUS GABRIEL LIMA PIRES.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 34,
+      "nome": "MIGUEL DA SILVA RAMOS",
+      "tutor": "Gabriel Marques",
+      "foto": "MIGUEL DA SILVA RAMOS.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 35,
+      "nome": "MIGUEL HENRIQUE TEODORO DA SILVA",
+      "tutor": "Guilherme",
+      "foto": "MIGUEL HENRIQUE TEODORO DA SILVA.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 36,
+      "nome": "NICOLLY ANDRÉ DOS SANTOS",
+      "tutor": "Gabriel Marques",
+      "foto": "NICOLLY ANDRÉ DOS SANTOS.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 37,
+      "nome": "NÍKOLAS KAUAN SILVA RODRIGUES",
+      "tutor": "Edivaldo",
+      "foto": "NÍKOLAS KAUAN SILVA RODRIGUES.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 38,
+      "nome": "PEDRO NASCIMENTO SANTOS",
+      "tutor": "Everton",
+      "foto": "PEDRO NASCIMENTO SANTOS.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 39,
+      "nome": "RAFAEL HENRIQUE TORRES DA SILVA",
+      "tutor": "Guilherme",
+      "foto": "RAFAEL HENRIQUE TORRES DA SILVA.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 40,
+      "nome": "TALISON FERREIRA DE SOUZA",
+      "tutor": "Gabriel Nero",
+      "foto": "TALISON FERREIRA DE SOUZA.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 43,
+      "nome": "YAGO LUÍS PEREIRA DOS SANTOS",
+      "tutor": "Josi",
+      "foto": "YAGO LUÍS PEREIRA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 44,
+      "nome": "KEMILLY VITÓRIA CARDOSO",
+      "tutor": "Josi",
+      "foto": "KEMILLY VITÓRIA CARDOSO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 47,
+      "nome": "MATHEUS MAXIMILIANO DE JESUS",
+      "tutor": "Josi",
+      "foto": "MATHEUS MAXIMILIANO DE JESUS.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 48,
+      "nome": "GABRIEL DE SOUZA PEDROSO",
+      "tutor": "Edivaldo",
+      "foto": "GABRIEL DE SOUZA PEDROSO.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 49,
+      "nome": "GABRIEL EDUARDO OLIVEIRA MATOS",
+      "tutor": "Edivaldo",
+      "foto": "GABRIEL EDUARDO OLIVEIRA MATOS.jpg"
+    },
+    {
+      "sala": "1B",
+      "chamada": 50,
+      "nome": "CARLOS EDUARDO BUENO RAMOS",
+      "tutor": "Josi",
+      "foto": "CARLOS EDUARDO BUENO RAMOS.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 1,
+      "nome": "ALLYSON ARAUJO DE LIRA",
+      "tutor": "Edivaldo",
+      "foto": "ALLYSON ARAUJO DE LIRA.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 2,
+      "nome": "BEATRIZ GOMES TRINDADE",
+      "tutor": "Josi",
+      "foto": "BEATRIZ GOMES TRINDADE.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 4,
+      "nome": "DANILO DE SOUZA AQUINO",
+      "tutor": "Marcia",
+      "foto": "DANILO DE SOUZA AQUINO.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 5,
+      "nome": "DAVI EDUARDO ALBORGHETTI",
+      "tutor": "Gabriel Marques",
+      "foto": "DAVI EDUARDO ALBORGHETTI.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 8,
+      "nome": "EMANUELLE LIMA GAMA",
+      "tutor": "Monica",
+      "foto": "EMANUELLE LIMA GAMA.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 10,
+      "nome": "GABRIELA ALVES",
+      "tutor": "Dener",
+      "foto": "GABRIELA ALVES.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 11,
+      "nome": "GABRIELA VITÓRIA SANDRÉ",
+      "tutor": "Marcia",
+      "foto": "GABRIELA VITÓRIA SANDRÉ.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 12,
+      "nome": "GABRIELLE FERNANDA DA SILVA",
+      "tutor": "Gabriel Marques",
+      "foto": "GABRIELLE FERNANDA DA SILVA.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 14,
+      "nome": "JOÃO PEDRO POLI RAMOS",
+      "tutor": "Everton",
+      "foto": "JOÃO PEDRO POLI RAMOS.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 16,
+      "nome": "KETHELIN CRISTINA FERREIRA PIRES",
+      "tutor": "Marcia",
+      "foto": "KETHELIN CRISTINA FERREIRA PIRES.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 17,
+      "nome": "LAYSLA VICTÓRIA FLOZINO",
+      "tutor": "Gabriel Marques",
+      "foto": "LAYSLA VICTÓRIA FLOZINO.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 18,
+      "nome": "LISSANDA PIERRE LOUIS",
+      "tutor": "Gabriel Marques",
+      "foto": "LISSANDA PIERRE LOUIS.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 20,
+      "nome": "LUCAS VINICIUS DOS SANTOS",
+      "tutor": "Josias",
+      "foto": "LUCAS VINICIUS DOS SANTOS.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 21,
+      "nome": "LUÍS ANTÔNIO SOBRAL DOS SANTOS",
+      "tutor": "Marcia",
+      "foto": "LUÍS ANTÔNIO SOBRAL DOS SANTOS.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 22,
+      "nome": "LUIZ FELIPE BARBOSA DOS SANTOS",
+      "tutor": "Dener",
+      "foto": "LUIZ FELIPE BARBOSA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 23,
+      "nome": "MATEUS DE OLIVEIRA ZALATIN",
+      "tutor": "Marcia",
+      "foto": "MATEUS DE OLIVEIRA ZALATIN.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 24,
+      "nome": "MIQUÉIAS YBRAIM DE SOUZA",
+      "tutor": "Dener",
+      "foto": "MIQUÉIAS YBRAIM DE SOUZA.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 26,
+      "nome": "PALLOMA VITÓRIA FERREIRA DE OLIVEIRA",
+      "tutor": "Gabriel Marques",
+      "foto": "PALLOMA VITÓRIA FERREIRA DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 27,
+      "nome": "RENAN ALVES PEREIRA",
+      "tutor": "Gabriel Marques",
+      "foto": "RENAN ALVES PEREIRA.jpg"
+    },
+    {
+      "sala": "2A",
+      "chamada": 31,
+      "nome": "WILLIANS ROBERTO DA SILVA",
+      "tutor": "Everton",
+      "foto": "WILLIANS ROBERTO DA SILVA.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 1,
+      "nome": "CAIO FELIPE PEREIRA ARAUJO",
+      "tutor": "Josias",
+      "foto": "CAIO FELIPE PEREIRA ARAUJO.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 2,
+      "nome": "CRHISTIAN PERES",
+      "tutor": "Dener",
+      "foto": "CRHISTIAN PERES.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 3,
+      "nome": "FELIPE DE OLIVEIRA ZALATIN",
+      "tutor": "Dener",
+      "foto": "FELIPE DE OLIVEIRA ZALATIN.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 4,
+      "nome": "FILIPE HENRIQUE DA COSTA",
+      "tutor": "Josias",
+      "foto": "FILIPE HENRIQUE DA COSTA.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 5,
+      "nome": "GUSTAVO SILVÉRIO DO NASCIMENTO",
+      "tutor": "Dener",
+      "foto": "GUSTAVO SILVÉRIO DO NASCIMENTO.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 6,
+      "nome": "HAIFA FANY ARAUJO DOS SANTOS",
+      "tutor": "Marcia",
+      "foto": "HAIFA FANY ARAUJO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 7,
+      "nome": "JOÃO VICTOR FAVERO RIBEIRO",
+      "tutor": "Monica",
+      "foto": "JOÃO VICTOR FAVERO RIBEIRO.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 9,
+      "nome": "LETÍCIA FERNANDA MORAES BUENO",
+      "tutor": "Gabriel Nero",
+      "foto": "LETÍCIA FERNANDA MORAES BUENO.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 10,
+      "nome": "LUENDREL ALLAN MANTOAN PARMEZANI",
+      "tutor": "Dener",
+      "foto": "LUENDREL ALLAN MANTOAN PARMEZANI.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 11,
+      "nome": "LUÍS FERNANDO TRISTÃO DA SILVA",
+      "tutor": "Monica",
+      "foto": "LUÍS FERNANDO TRISTÃO DA SILVA.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 12,
+      "nome": "LUÍS HENRIQUE PEROTO DE BONFIM",
+      "tutor": "Josias",
+      "foto": "LUÍS HENRIQUE PEROTO DE BONFIM.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 13,
+      "nome": "MARIANA BATISTA DA SILVA",
+      "tutor": "Gabriel Nero",
+      "foto": "MARIANA BATISTA DA SILVA.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 14,
+      "nome": "MICAEL RODRIGO FERREIRA",
+      "tutor": "Marcia",
+      "foto": "MICAEL RODRIGO FERREIRA.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 15,
+      "nome": "MONIKY VITORIA FERREIRA DA SILVA",
+      "tutor": "Dener",
+      "foto": "MONIKY VITORIA FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 16,
+      "nome": "RICARDO FELIPE PEDRO",
+      "tutor": "Josias",
+      "foto": "RICARDO FELIPE PEDRO.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 17,
+      "nome": "RICHARD LUÍS DOS SANTOS BENTO",
+      "tutor": "Dener",
+      "foto": "RICHARD LUÍS DOS SANTOS BENTO.jpg"
+    },
+    {
+      "sala": "3A",
+      "chamada": 18,
+      "nome": "THIAGO DE SOUSA TEIXEIRA",
+      "tutor": "Monica",
+      "foto": "THIAGO DE SOUSA TEIXEIRA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 1,
+      "nome": "ADAILTON GOMES DE AMORIM PEREIRA",
+      "tutor": "Josias",
+      "foto": "ADAILTON GOMES DE AMORIM PEREIRA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 2,
+      "nome": "ANA LÍVIA INDALÉCIO PEDRO",
+      "tutor": "Monica",
+      "foto": "ANA LÍVIA INDALÉCIO PEDRO.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 3,
+      "nome": "CARLOS DANIEL OLIVEIRA",
+      "tutor": "Dener",
+      "foto": "CARLOS DANIEL OLIVEIRA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 4,
+      "nome": "CLAYFER GABRIEL MUNIZ DE OLIVEIRA",
+      "tutor": "Josias",
+      "foto": "CLAYFER GABRIEL MUNIZ DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 5,
+      "nome": "ELIAS IGOR DE SOUZA FRANCISCO",
+      "tutor": "Josias",
+      "foto": "ELIAS IGOR DE SOUZA FRANCISCO.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 6,
+      "nome": "FÁBIO HENRIQUE CHEREZIO",
+      "tutor": "Monica",
+      "foto": "FÁBIO HENRIQUE CHEREZIO.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 7,
+      "nome": "GLÓRIA STEPHANY DE LIMA",
+      "tutor": "Josias",
+      "foto": "GLÓRIA STEPHANY DE LIMA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 8,
+      "nome": "JAMILE DE ABREU CARLOS",
+      "tutor": "Marcia",
+      "foto": "JAMILE DE ABREU CARLOS.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 9,
+      "nome": "JENNYFFER VICTÓRIA DINIZ DA SILVA",
+      "tutor": "Marcia",
+      "foto": "JENNYFFER VICTÓRIA DINIZ DA SILVA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 10,
+      "nome": "LUCAS DE SOUSA SETIN",
+      "tutor": "Josias",
+      "foto": "LUCAS DE SOUSA SETIN.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 11,
+      "nome": "MARIA CLARA OLIVEIRA DE SOUZA",
+      "tutor": "Josias",
+      "foto": "MARIA CLARA OLIVEIRA DE SOUZA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 12,
+      "nome": "PALOMA BEATRIZ BINATO DE ALMEIDA",
+      "tutor": "Josias",
+      "foto": "PALOMA BEATRIZ BINATO DE ALMEIDA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 13,
+      "nome": "SOFIA ROSA",
+      "tutor": "Monica",
+      "foto": "SOFIA ROSA.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 14,
+      "nome": "THAYLA GEOVANA DE ARAUJO MARTINS",
+      "tutor": "Marcia",
+      "foto": "THAYLA GEOVANA DE ARAUJO MARTINS.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 15,
+      "nome": "THAYNARA CRISTINA MORAIS FARIAS",
+      "tutor": "Josias",
+      "foto": "THAYNARA CRISTINA MORAIS FARIAS.jpg"
+    },
+    {
+      "sala": "3ADM",
+      "chamada": 16,
+      "nome": "VINÍCIUS SANTANA PEREIRA DA SILVA",
+      "tutor": "Josias",
+      "foto": "VINÍCIUS SANTANA PEREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "6A",
       "chamada": 1,
       "nome": "ADRYAN HENRIQUE DE OLIVEIRA",
       "tutor": "Fernando",
       "foto": "ADRYAN HENRIQUE DE OLIVEIRA.jpg"
     },
     {
-      "sala": "6a",
+      "sala": "6A",
       "chamada": 2,
       "nome": "ÁGATA YNARA PÉRIGO ROBERTO",
       "tutor": "Beatriz M",
       "foto": "ÁGATA YNARA PÉRIGO ROBERTO.jpg"
     },
     {
-      "sala": "6a",
+      "sala": "6A",
       "chamada": 3,
-      "nome": "AMANDA HARUMI ETO NUNES",
-      "tutor": "[Falta tutor]",
-      "foto": "AMANDA HARUMI ETO NUNES.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 4,
       "nome": "ANA BEATRIZ LIMA LEITE",
       "tutor": "Cristiane",
       "foto": "ANA BEATRIZ LIMA LEITE.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 5,
+      "sala": "6A",
+      "chamada": 4,
       "nome": "ANA JÚLIA CAMPOS DE OLIVEIRA",
       "tutor": "Rebeca",
       "foto": "ANA JÚLIA CAMPOS DE OLIVEIRA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 6,
+      "sala": "6A",
+      "chamada": 5,
       "nome": "ANA LÍVIA MATIAS MARCOS",
       "tutor": "Aline A",
       "foto": "ANA LÍVIA MATIAS MARCOS.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 7,
-      "nome": "DALLYLA VITORIA DE CARVALHO",
-      "tutor": "Mara",
-      "foto": "DALLYLA VITORIA DE CARVALHO.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 8,
+      "sala": "6A",
+      "chamada": 6,
       "nome": "DAVI MORAES GONÇALVES",
       "tutor": "Cristiane",
       "foto": "DAVI MORAES GONÇALVES.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 9,
-      "nome": "EDSON FLORAS DE MORAES",
-      "tutor": "[Falta tutor]",
-      "foto": "EDSON FLORAS DE MORAES.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 10,
-      "nome": "EMANOELLA FONTANIELLO",
-      "tutor": "Beatriz M",
-      "foto": "EMANOELLA FONTANIELLO.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 11,
+      "sala": "6A",
+      "chamada": 7,
       "nome": "ENZO GABRIEL FELICIANO",
       "tutor": "Beatriz M",
       "foto": "ENZO GABRIEL FELICIANO.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 12,
-      "nome": "GABRIEL FRANCISCO BONETTI GUARNIERI",
-      "tutor": "[Falta tutor]",
-      "foto": "GABRIEL FRANCISCO BONETTI GUARNIERI.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 13,
+      "sala": "6A",
+      "chamada": 8,
       "nome": "ISABELLY HELENA JACOMUSSI",
       "tutor": "Rebeca",
       "foto": "ISABELLY HELENA JACOMUSSI.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 14,
+      "sala": "6A",
+      "chamada": 9,
       "nome": "ISADORA VITORIA TURBIANI",
       "tutor": "Mara",
       "foto": "ISADORA VITORIA TURBIANI.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 15,
-      "nome": "JENIFFER ALICE DANTAS CAMPOS",
-      "tutor": "[Falta tutor]",
-      "foto": "JENIFFER ALICE DANTAS CAMPOS.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 16,
+      "sala": "6A",
+      "chamada": 10,
       "nome": "JHENIFER COSTA DE ARAUJO",
       "tutor": "Cristiane",
       "foto": "JHENIFER COSTA DE ARAUJO.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 17,
+      "sala": "6A",
+      "chamada": 11,
       "nome": "JHONATAN MARTIN SANTANA",
       "tutor": "Fernando",
       "foto": "JHONATAN MARTIN SANTANA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 18,
+      "sala": "6A",
+      "chamada": 12,
       "nome": "JOAO LUCAS ROCHA GOMES DA SILVA",
       "tutor": "Rebeca",
       "foto": "JOAO LUCAS ROCHA GOMES DA SILVA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 19,
-      "nome": "JOAO PEDRO BERTAZOLLO",
-      "tutor": "NC",
-      "foto": "JOAO PEDRO BERTAZOLLO.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 20,
+      "sala": "6A",
+      "chamada": 13,
       "nome": "JOÃO VICTOR DE SOUZA SOARES",
       "tutor": "Fabiana",
       "foto": "JOÃO VICTOR DE SOUZA SOARES.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 21,
+      "sala": "6A",
+      "chamada": 14,
       "nome": "JOHN ASSIS AQUINO",
       "tutor": "Fabiana",
       "foto": "JOHN ASSIS AQUINO.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 22,
-      "nome": "JONNAS GABRIEL DE PAULA LIMA",
-      "tutor": "[Falta tutor]",
-      "foto": "JONNAS GABRIEL DE PAULA LIMA.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 23,
+      "sala": "6A",
+      "chamada": 15,
       "nome": "JUAN MIGUEL DA SILVA",
       "tutor": "Aline A",
       "foto": "JUAN MIGUEL DA SILVA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 24,
-      "nome": "KAUÃ SANTOS SILVA",
-      "tutor": "Cristiane",
-      "foto": "KAUÃ SANTOS SILVA.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 25,
+      "sala": "6A",
+      "chamada": 16,
       "nome": "KEVIN LUCAS LOURENTE DE PAULA",
       "tutor": "Mara",
       "foto": "KEVIN LUCAS LOURENTE DE PAULA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 26,
+      "sala": "6A",
+      "chamada": 17,
       "nome": "KIMBERLLY CRISTINA PEREIRA MENDES",
       "tutor": "Mara",
       "foto": "KIMBERLLY CRISTINA PEREIRA MENDES.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 27,
+      "sala": "6A",
+      "chamada": 18,
       "nome": "LAURA CANDIDO CORDEIRO",
       "tutor": "Aline A",
       "foto": "LAURA CANDIDO CORDEIRO.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 28,
-      "nome": "LILAH AUREA ANDRE REIS",
-      "tutor": "[Falta tutor]",
-      "foto": "LILAH AUREA ANDRE REIS.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 29,
+      "sala": "6A",
+      "chamada": 19,
       "nome": "MARIA CLARA VELASCO DE SOUZA",
       "tutor": "Emeline",
       "foto": "MARIA CLARA VELASCO DE SOUZA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 30,
-      "nome": "MARIA EDUARDA EVARISTO GABRIEL",
-      "tutor": "[Falta tutor]",
-      "foto": "MARIA EDUARDA EVARISTO GABRIEL.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 31,
+      "sala": "6A",
+      "chamada": 20,
       "nome": "MARIA HELENA DE DEUS MOREIRA",
       "tutor": "Mara",
       "foto": "MARIA HELENA DE DEUS MOREIRA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 32,
-      "nome": "MELISSA ISABELY VIEIRA DA SILVA",
-      "tutor": "Emeline",
-      "foto": "MELISSA ISABELY VIEIRA DA SILVA.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 33,
+      "sala": "6A",
+      "chamada": 21,
       "nome": "MIGUEL DE OLIVEIRA MACHADO",
       "tutor": "Fabiana",
       "foto": "MIGUEL DE OLIVEIRA MACHADO.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 34,
-      "nome": "MIGUEL LUCCA DOS SANTOS NASCIMENTO",
-      "tutor": "Fernando",
-      "foto": "MIGUEL LUCCA DOS SANTOS NASCIMENTO.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 35,
-      "nome": "PIERRY RICARDO TESTA",
-      "tutor": "Fernando NC",
-      "foto": "PIERRY RICARDO TESTA.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 36,
+      "sala": "6A",
+      "chamada": 22,
       "nome": "NATHAN GABRIEL DA SILVA",
       "tutor": "Aline A",
       "foto": "NATHAN GABRIEL DA SILVA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 37,
-      "nome": "PAULO HENRIQUE DE OLIVEIRA",
-      "tutor": "[Falta tutor]",
-      "foto": "PAULO HENRIQUE DE OLIVEIRA.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 38,
+      "sala": "6A",
+      "chamada": 23,
       "nome": "RAPHAEL DE PAULA ZACARIAS",
       "tutor": "Beatriz M",
       "foto": "RAPHAEL DE PAULA ZACARIAS.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 39,
+      "sala": "6A",
+      "chamada": 24,
       "nome": "SOFIA DA SILVA PEREIRA",
       "tutor": "Cristiane",
       "foto": "SOFIA DA SILVA PEREIRA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 40,
-      "nome": "VITOR GABRIEL ANASTÁCIO",
-      "tutor": "Fernando TR",
-      "foto": "VITOR GABRIEL ANASTÁCIO.jpg"
-    },
-    {
-      "sala": "6a",
-      "chamada": 41,
+      "sala": "6A",
+      "chamada": 25,
       "nome": "VITÓRIA PEREIRA BARROS",
       "tutor": "Aline A",
       "foto": "VITÓRIA PEREIRA BARROS.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 42,
+      "sala": "6A",
+      "chamada": 26,
       "nome": "YASMIM VICTORIA GONZAGA",
       "tutor": "Mara",
       "foto": "YASMIM VICTORIA GONZAGA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 43,
+      "sala": "6A",
+      "chamada": 27,
       "nome": "YASMIN CERQUEIRA DE SOUZA",
       "tutor": "Rebeca",
       "foto": "YASMIN CERQUEIRA DE SOUZA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 44,
+      "sala": "6A",
+      "chamada": 28,
       "nome": "YOHANA BARROS DE AGUIAR",
       "tutor": "Cecília",
       "foto": "YOHANA BARROS DE AGUIAR.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 45,
+      "sala": "6A",
+      "chamada": 29,
       "nome": "DAVI HENRIQUE ORTEGA BIANCHI",
       "tutor": "Luan",
       "foto": "DAVI HENRIQUE ORTEGA BIANCHI.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 46,
+      "sala": "6A",
+      "chamada": 30,
       "nome": "KÊMY FRANCIELLE SILVA",
       "tutor": "Fabiana",
       "foto": "KÊMY FRANCIELLE SILVA.jpg"
     },
     {
-      "sala": "6a",
-      "chamada": 47,
-      "nome": "ALICE GABRIELLY DA SILVA JOSÉ",
-      "tutor": "[Falta tutor]",
-      "foto": "ALICE GABRIELLY DA SILVA JOSÉ.jpg"
+      "sala": "6B",
+      "chamada": 1,
+      "nome": "ALERRANDRO GABRIEL DA SILVA RAMOS",
+      "tutor": "Aline A",
+      "foto": "ALERRANDRO GABRIEL DA SILVA RAMOS.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 2,
+      "nome": "ANA BEATRIZ DA SILVA BRAGA",
+      "tutor": "Aline A",
+      "foto": "ANA BEATRIZ DA SILVA BRAGA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 3,
+      "nome": "ANA LAURA DA SILVA GUIMARAES",
+      "tutor": "Fabiana",
+      "foto": "ANA LAURA DA SILVA GUIMARAES.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 4,
+      "nome": "ANA LIVIA DE PAULA",
+      "tutor": "Fernando",
+      "foto": "ANA LIVIA DE PAULA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 5,
+      "nome": "ANA LYVIA XAVIER DOS REIS COSTA",
+      "tutor": "Mara",
+      "foto": "ANA LYVIA XAVIER DOS REIS COSTA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 6,
+      "nome": "ANDRESSA DE SOUZA VENANCIO",
+      "tutor": "Rebeca",
+      "foto": "ANDRESSA DE SOUZA VENANCIO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 8,
+      "nome": "ARTHUR WESLEY LUSTOSA RIBEIRO",
+      "tutor": "Fabiana",
+      "foto": "ARTHUR WESLEY LUSTOSA RIBEIRO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 9,
+      "nome": "BRAIAN VINI FELIX DE OLIVEIRA",
+      "tutor": "David",
+      "foto": "BRAIAN VINI FELIX DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 10,
+      "nome": "BRENDA MAYUMI OIKAWA LEITE DE OLIVEIRA",
+      "tutor": "Renato",
+      "foto": "BRENDA MAYUMI OIKAWA LEITE DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 11,
+      "nome": "BRUNA RODRIGUES DOS SANTOS",
+      "tutor": "Rebeca",
+      "foto": "BRUNA RODRIGUES DOS SANTOS.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 12,
+      "nome": "ENZO GABRIEL MOSCHELI BENEDITO",
+      "tutor": "Beatriz M",
+      "foto": "ENZO GABRIEL MOSCHELI BENEDITO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 13,
+      "nome": "ENZO RAPHAEL MACHADO LINARDI",
+      "tutor": "David",
+      "foto": "ENZO RAPHAEL MACHADO LINARDI.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 14,
+      "nome": "FELIPE SILVÉRIO DO NASCIMENTO",
+      "tutor": "Rebeca",
+      "foto": "FELIPE SILVÉRIO DO NASCIMENTO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 15,
+      "nome": "GABRIEL GUSTAVO DE MIRANDA CASTILHO",
+      "tutor": "Renato",
+      "foto": "GABRIEL GUSTAVO DE MIRANDA CASTILHO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 16,
+      "nome": "HELOISA SOUZA SANTOS",
+      "tutor": "Aline A",
+      "foto": "HELOISA SOUZA SANTOS.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 17,
+      "nome": "ISABELLE CAMBERO FERNANDES",
+      "tutor": "Mara",
+      "foto": "ISABELLE CAMBERO FERNANDES.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 18,
+      "nome": "IZABELLY BEATRIZ DA SILVA",
+      "tutor": "Renato",
+      "foto": "IZABELLY BEATRIZ DA SILVA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 19,
+      "nome": "JOANNA DA CUNHA BANDEIRA",
+      "tutor": "Rebeca",
+      "foto": "JOANNA DA CUNHA BANDEIRA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 20,
+      "nome": "JOÃO DAVI DE LIMA MACHADO",
+      "tutor": "Rebeca",
+      "foto": "JOÃO DAVI DE LIMA MACHADO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 21,
+      "nome": "JOÃO PEDRO DE AQUINO",
+      "tutor": "Mara",
+      "foto": "JOÃO PEDRO DE AQUINO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 22,
+      "nome": "KAUÃ VÍTOR DE SOUZA MARTINS",
+      "tutor": "Fabiana",
+      "foto": "KAUÃ VÍTOR DE SOUZA MARTINS.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 23,
+      "nome": "LAVINIA ALVES CAMPOS",
+      "tutor": "Fabiana",
+      "foto": "LAVINIA ALVES CAMPOS.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 24,
+      "nome": "LORENZO RODRIGUES",
+      "tutor": "Fabiana",
+      "foto": "LORENZO RODRIGUES.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 26,
+      "nome": "LUKAS GABRIEL DOS SANTOS BENTO",
+      "tutor": "David",
+      "foto": "LUKAS GABRIEL DOS SANTOS BENTO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 27,
+      "nome": "MARIA FERNANDA CAETANO COSTA",
+      "tutor": "Aline A",
+      "foto": "MARIA FERNANDA CAETANO COSTA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 28,
+      "nome": "NATHÁLIA SOFIA AMISS DELFINO",
+      "tutor": "Cristiane",
+      "foto": "NATHÁLIA SOFIA AMISS DELFINO.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 29,
+      "nome": "NATHAN DA SILVA",
+      "tutor": "Cristiane",
+      "foto": "NATHAN DA SILVA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 30,
+      "nome": "NOAH HENRIQUE DE VASCONCELOS",
+      "tutor": "Rebeca",
+      "foto": "NOAH HENRIQUE DE VASCONCELOS.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 31,
+      "nome": "NYCOLLE FERNANDA BATISTA",
+      "tutor": "Renato",
+      "foto": "NYCOLLE FERNANDA BATISTA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 32,
+      "nome": "PAULO HENRIQUE DE OLIVEIRA",
+      "tutor": "David",
+      "foto": "PAULO HENRIQUE DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 33,
+      "nome": "RHYAN DOUGLAS RAMOS LOPES",
+      "tutor": "Cristiane",
+      "foto": "RHYAN DOUGLAS RAMOS LOPES.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 34,
+      "nome": "SOPHIA MANUELLE FERREIRA PANINI",
+      "tutor": "Fabiana",
+      "foto": "SOPHIA MANUELLE FERREIRA PANINI.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 35,
+      "nome": "THALLES ISAAC GONCALVES LOPES",
+      "tutor": "Mara",
+      "foto": "THALLES ISAAC GONCALVES LOPES.jpg"
+    },
+    {
+      "sala": "6B",
+      "chamada": 36,
+      "nome": "YURI GABRIEL DA SILVA ANDRADE",
+      "tutor": "David",
+      "foto": "YURI GABRIEL DA SILVA ANDRADE.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 1,
+      "nome": "ANA CLARA FERREIRA DA SILVA",
+      "tutor": "Fabiana",
+      "foto": "ANA CLARA FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 2,
+      "nome": "ANA LAURA MANOEL",
+      "tutor": "David",
+      "foto": "ANA LAURA MANOEL.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 3,
+      "nome": "BRUNA GABRIELLY DE OLIVEIRA",
+      "tutor": "Fabiana",
+      "foto": "BRUNA GABRIELLY DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 4,
+      "nome": "CARLOS HENRIQUE DA SILVA",
+      "tutor": "Renato",
+      "foto": "CARLOS HENRIQUE DA SILVA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 5,
+      "nome": "DEYVID FELIPE DE OLIVEIRA MACHARET DO NASCIMENTO",
+      "tutor": "Beatriz M",
+      "foto": "DEYVID FELIPE DE OLIVEIRA MACHARET DO NASCIMENTO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 6,
+      "nome": "EDUARDO EZEQUIEL ZIEMELS",
+      "tutor": "Rebeca",
+      "foto": "EDUARDO EZEQUIEL ZIEMELS.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 7,
+      "nome": "EDUARDO MIGUEL BACARIM DOS SANTOS EURINIDIO",
+      "tutor": "Beatriz M",
+      "foto": "EDUARDO MIGUEL BACARIM DOS SANTOS EURINIDIO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 8,
+      "nome": "ELOAH HADASSA FERREIRA PENTEADO",
+      "tutor": "David",
+      "foto": "ELOAH HADASSA FERREIRA PENTEADO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 9,
+      "nome": "EMANUELLY SILVA VIEIRA",
+      "tutor": "Emeline",
+      "foto": "EMANUELLY SILVA VIEIRA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 10,
+      "nome": "EMILLY GOES ANACLETO",
+      "tutor": "Beatriz M",
+      "foto": "EMILLY GOES ANACLETO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 11,
+      "nome": "ENZO HENRIQUE DA SILVA ANDRADE",
+      "tutor": "Daniel",
+      "foto": "ENZO HENRIQUE DA SILVA ANDRADE.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 12,
+      "nome": "FLAVIA EMANUELLY DE OLIVEIRA",
+      "tutor": "Rebeca",
+      "foto": "FLAVIA EMANUELLY DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 13,
+      "nome": "GABRIELA VITORIA DOS SANTOS",
+      "tutor": "Beatriz M",
+      "foto": "GABRIELA VITORIA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 14,
+      "nome": "GIOVANA GABRIELLA PEROCCI OTI",
+      "tutor": "Beatriz M",
+      "foto": "GIOVANA GABRIELLA PEROCCI OTI.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 15,
+      "nome": "JOÃO HENRIQUE BARBOSA",
+      "tutor": "Beatriz M",
+      "foto": "JOÃO HENRIQUE BARBOSA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 16,
+      "nome": "JOÃO LUCAS RODRIGUES DE FREITAS",
+      "tutor": "Rebeca",
+      "foto": "JOÃO LUCAS RODRIGUES DE FREITAS.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 17,
+      "nome": "JONAS SILVA ALVES",
+      "tutor": "Rebeca",
+      "foto": "JONAS SILVA ALVES.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 18,
+      "nome": "JORGE LOURENÇO FERREIRA DA SILVA",
+      "tutor": "Beatriz M",
+      "foto": "JORGE LOURENÇO FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 19,
+      "nome": "JÚLIA MARA DE MELO",
+      "tutor": "Rebeca",
+      "foto": "JÚLIA MARA DE MELO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 20,
+      "nome": "KAUA ALVES RAMOS DE SOUZA",
+      "tutor": "Aline A",
+      "foto": "KAUA ALVES RAMOS DE SOUZA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 21,
+      "nome": "KAUÃ LEMES NASCIMENTO DA SILVA",
+      "tutor": "Aline A",
+      "foto": "KAUÃ LEMES NASCIMENTO DA SILVA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 22,
+      "nome": "KETLYN VITORIA PORFIRIO CARVALHO",
+      "tutor": "Cristiane",
+      "foto": "KETLYN VITORIA PORFIRIO CARVALHO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 23,
+      "nome": "LEVY DOMINGUES COELHO",
+      "tutor": "Fabiana",
+      "foto": "LEVY DOMINGUES COELHO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 24,
+      "nome": "LORENA VITÓRIA SILVA",
+      "tutor": "Beatriz M",
+      "foto": "LORENA VITÓRIA SILVA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 25,
+      "nome": "LORRANY BEATRIZ BARBOSA BATISTA",
+      "tutor": "Fernando",
+      "foto": "LORRANY BEATRIZ BARBOSA BATISTA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 26,
+      "nome": "MARCELA LAIS DE MELO",
+      "tutor": "Rebeca",
+      "foto": "MARCELA LAIS DE MELO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 27,
+      "nome": "MARIA IZABELLA MARQUES DE OLIVEIRA",
+      "tutor": "Beatriz M",
+      "foto": "MARIA IZABELLA MARQUES DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 30,
+      "nome": "NICOLAS GUILHERME VALENTIM DA SILVA",
+      "tutor": "Beatriz M",
+      "foto": "NICOLAS GUILHERME VALENTIM DA SILVA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 31,
+      "nome": "NICOLLY PEREIRA DA SILVA",
+      "tutor": "Cristiane",
+      "foto": "NICOLLY PEREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 32,
+      "nome": "PEDRO LUCAS CAROLINO MACHARET",
+      "tutor": "Renato",
+      "foto": "PEDRO LUCAS CAROLINO MACHARET.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 34,
+      "nome": "RICHARD GUILHERME GERMANO DO PRADO",
+      "tutor": "Beatriz M",
+      "foto": "RICHARD GUILHERME GERMANO DO PRADO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 35,
+      "nome": "SAMUEL DAVI FERREIRA DE SENA",
+      "tutor": "Daniel",
+      "foto": "SAMUEL DAVI FERREIRA DE SENA.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 37,
+      "nome": "VALENTINA MARIANO",
+      "tutor": "Daniel",
+      "foto": "VALENTINA MARIANO.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 38,
+      "nome": "VITÓRIA EMANUELE APARECIDA VICENTE",
+      "tutor": "Beatriz M",
+      "foto": "VITÓRIA EMANUELE APARECIDA VICENTE.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 39,
+      "nome": "YASMIM VITÓRIA VICENTE",
+      "tutor": "Daniel",
+      "foto": "YASMIM VITÓRIA VICENTE.jpg"
+    },
+    {
+      "sala": "6C",
+      "chamada": 40,
+      "nome": "YURI MIGUEL MOREIRA MARTINS DOS SANTOS",
+      "tutor": "Daniel",
+      "foto": "YURI MIGUEL MOREIRA MARTINS DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 1,
+      "nome": "AGATHA ISADORA DE ALMEIDA GUILHERME",
+      "tutor": "Daniel",
+      "foto": "AGATHA ISADORA DE ALMEIDA GUILHERME.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 2,
+      "nome": "ALICE VITORIA MACHARET RIBEIRO DA SILVA",
+      "tutor": "Cecília",
+      "foto": "ALICE VITORIA MACHARET RIBEIRO DA SILVA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 3,
+      "nome": "ANA LÍVIA OLIVEIRA GOMES DA SILVA",
+      "tutor": "Augusto",
+      "foto": "ANA LÍVIA OLIVEIRA GOMES DA SILVA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 4,
+      "nome": "ANA LIVIA RODRIGUES CARDOSO",
+      "tutor": "Cristiane",
+      "foto": "ANA LIVIA RODRIGUES CARDOSO.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 5,
+      "nome": "ANDREW ROCHA DA SILVA",
+      "tutor": "Augusto",
+      "foto": "ANDREW ROCHA DA SILVA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 6,
+      "nome": "ANNY KAROLYNE GOMES DA SILVA SANTOS",
+      "tutor": "David",
+      "foto": "ANNY KAROLYNE GOMES DA SILVA SANTOS.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 7,
+      "nome": "AYLA DOS SANTOS FERREIRA",
+      "tutor": "Cecilia",
+      "foto": "AYLA DOS SANTOS FERREIRA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 8,
+      "nome": "BRENO DOS SANTOS MOREIRA",
+      "tutor": "Fernando",
+      "foto": "BRENO DOS SANTOS MOREIRA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 9,
+      "nome": "CAIO EDUARDO UMBELINO GUSLAFER",
+      "tutor": "Cecília",
+      "foto": "CAIO EDUARDO UMBELINO GUSLAFER.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 10,
+      "nome": "CAIO GABRIEL FERREIRA",
+      "tutor": "Cecília",
+      "foto": "CAIO GABRIEL FERREIRA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 12,
+      "nome": "DIOVANI ENZON ZALATIN",
+      "tutor": "Augusto",
+      "foto": "DIOVANI ENZON ZALATIN.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 13,
+      "nome": "GIOVANA DE PAULA ZACARIAS",
+      "tutor": "Daniel",
+      "foto": "GIOVANA DE PAULA ZACARIAS.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 14,
+      "nome": "JOSÉ MESSIAS DOS SANTOS",
+      "tutor": "Cecília",
+      "foto": "JOSÉ MESSIAS DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 15,
+      "nome": "JUAN PAULO LÚCIO JUNIOR",
+      "tutor": "Daniel",
+      "foto": "JUAN PAULO LÚCIO JUNIOR.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 16,
+      "nome": "KAIQUE BALANCIERI SANTOS DE MELO",
+      "tutor": "Emeline",
+      "foto": "KAIQUE BALANCIERI SANTOS DE MELO.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 17,
+      "nome": "KEREN VITORIA PACHIEGA DOS SANTOS",
+      "tutor": "David",
+      "foto": "KEREN VITORIA PACHIEGA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 18,
+      "nome": "LAURA DA SILVA",
+      "tutor": "Cristiane",
+      "foto": "LAURA DA SILVA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 19,
+      "nome": "LAYSA BIANCA DE MIRANDA",
+      "tutor": "Fabiana",
+      "foto": "LAYSA BIANCA DE MIRANDA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 20,
+      "nome": "MARIA EDUARDA GONÇALVES",
+      "tutor": "Juliana",
+      "foto": "MARIA EDUARDA GONÇALVES.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 21,
+      "nome": "MARIA FERNANDA TOBIAS PROCOPIO DE SOUZA",
+      "tutor": "Cecília",
+      "foto": "MARIA FERNANDA TOBIAS PROCOPIO DE SOUZA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 22,
+      "nome": "MARIA LUIZA NOGUEIRA RAMOS",
+      "tutor": "Cristine",
+      "foto": "MARIA LUIZA NOGUEIRA RAMOS.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 23,
+      "nome": "MATHEUS HENRIQUE GOMES MONTEFERRANTE",
+      "tutor": "Mara",
+      "foto": "MATHEUS HENRIQUE GOMES MONTEFERRANTE.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 24,
+      "nome": "MIGUEL HENRIQUE DO CARMO GARBIM",
+      "tutor": "Daniel",
+      "foto": "MIGUEL HENRIQUE DO CARMO GARBIM.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 25,
+      "nome": "MILENI CAMARGO DE CASTRO",
+      "tutor": "Cecília",
+      "foto": "MILENI CAMARGO DE CASTRO.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 26,
+      "nome": "NEYMAR LUCCA DOS REIS OLIVEIRA",
+      "tutor": "Fabiana",
+      "foto": "NEYMAR LUCCA DOS REIS OLIVEIRA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 27,
+      "nome": "NICOLY GABRIELLY DO CARMO GARBIM",
+      "tutor": "Juliana",
+      "foto": "NICOLY GABRIELLY DO CARMO GARBIM.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 28,
+      "nome": "PEDRO HENRIQUE DE OLIVEIRA FIGUEIREDO",
+      "tutor": "Renato",
+      "foto": "PEDRO HENRIQUE DE OLIVEIRA FIGUEIREDO.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 29,
+      "nome": "PIETRO BERNARDO SUEDSON FALCÃO",
+      "tutor": "Emeline",
+      "foto": "PIETRO BERNARDO SUEDSON FALCÃO.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 30,
+      "nome": "RAONY GUSTAVO PEREIRA DA SILVA",
+      "tutor": "Aline A.",
+      "foto": "RAONY GUSTAVO PEREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 31,
+      "nome": "RONI LOPES GOMES",
+      "tutor": "Emeline",
+      "foto": "RONI LOPES GOMES.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 32,
+      "nome": "SOPHIA GABRIELLY DA SILVA",
+      "tutor": "Augusto",
+      "foto": "SOPHIA GABRIELLY DA SILVA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 33,
+      "nome": "VICTOR MIKAEL ALEXSSANDRO CARLOS BERNARDES",
+      "tutor": "Renato",
+      "foto": "VICTOR MIKAEL ALEXSSANDRO CARLOS BERNARDES.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 34,
+      "nome": "VITÓRIA DA SILVA OLIVEIRA",
+      "tutor": "Cecília",
+      "foto": "VITÓRIA DA SILVA OLIVEIRA.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 35,
+      "nome": "VITÓRIA SANTOS COUTINHO",
+      "tutor": "Cecília",
+      "foto": "VITÓRIA SANTOS COUTINHO.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 36,
+      "nome": "WISLAN DE OLIVEIRA LUIZ",
+      "tutor": "Daniel",
+      "foto": "WISLAN DE OLIVEIRA LUIZ.jpg"
+    },
+    {
+      "sala": "7A",
+      "chamada": 37,
+      "nome": "DALLYLA VITORIA DE CARVALHO",
+      "tutor": "Mara",
+      "foto": "DALLYLA VITORIA DE CARVALHO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 1,
+      "nome": "ADRIAN LUIZ CORRÊA",
+      "tutor": "Emeline",
+      "foto": "ADRIAN LUIZ CORRÊA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 2,
+      "nome": "ALVARO GABRIEL MATEUS SILVA",
+      "tutor": "Renato",
+      "foto": "ALVARO GABRIEL MATEUS SILVA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 4,
+      "nome": "CARLOS EDUARDO DE MELO",
+      "tutor": "Mara",
+      "foto": "CARLOS EDUARDO DE MELO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 5,
+      "nome": "CARLOS EDUARDO GRANDO DIONISIO",
+      "tutor": "Emeline",
+      "foto": "CARLOS EDUARDO GRANDO DIONISIO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 6,
+      "nome": "CAUÃ VINÍCIUS GERMANO DA SILVA",
+      "tutor": "Renato",
+      "foto": "CAUÃ VINÍCIUS GERMANO DA SILVA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 7,
+      "nome": "FELIPE OSMAR NASCIMENTO ROSA",
+      "tutor": "Cecília",
+      "foto": "FELIPE OSMAR NASCIMENTO ROSA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 10,
+      "nome": "GUSTAVO HENRIQUE MARCELINO",
+      "tutor": "Cecília",
+      "foto": "GUSTAVO HENRIQUE MARCELINO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 11,
+      "nome": "GUSTAVO RODRIGUES MARCIANO",
+      "tutor": "Emeline",
+      "foto": "GUSTAVO RODRIGUES MARCIANO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 12,
+      "nome": "ISABELLY VICTORIA FERREIRA DOS SANTOS",
+      "tutor": "Fabiana",
+      "foto": "ISABELLY VICTORIA FERREIRA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 13,
+      "nome": "LAVÍNIA RIBEIRO DA SILVA",
+      "tutor": "Fernando",
+      "foto": "LAVÍNIA RIBEIRO DA SILVA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 14,
+      "nome": "LEONARDO VINÍCIUS AMISS",
+      "tutor": "Emeline",
+      "foto": "LEONARDO VINÍCIUS AMISS.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 15,
+      "nome": "LUCAS TOTENE GIMENEZ",
+      "tutor": "Augusto",
+      "foto": "LUCAS TOTENE GIMENEZ.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 16,
+      "nome": "MAÍSA VITÓRIA MACHADO VIEIRA",
+      "tutor": "Fabiana",
+      "foto": "MAÍSA VITÓRIA MACHADO VIEIRA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 17,
+      "nome": "MARIA EDUARDA DOS SANTOS PAULA",
+      "tutor": "Fabiana",
+      "foto": "MARIA EDUARDA DOS SANTOS PAULA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 18,
+      "nome": "MARIA HELENA VIEIRA JULIO",
+      "tutor": "Daniel",
+      "foto": "MARIA HELENA VIEIRA JULIO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 19,
+      "nome": "MICAEL JANUZELLI MARTINS PEREIRA",
+      "tutor": "Fernando",
+      "foto": "MICAEL JANUZELLI MARTINS PEREIRA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 20,
+      "nome": "MIGUEL ZAVOSKI VIEIRA",
+      "tutor": "Daniel",
+      "foto": "MIGUEL ZAVOSKI VIEIRA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 21,
+      "nome": "NAYARA INGRIDY ROBERTO",
+      "tutor": "Fernando",
+      "foto": "NAYARA INGRIDY ROBERTO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 22,
+      "nome": "NICOLLY DA SILVA THOMAZINI",
+      "tutor": "Cecilia",
+      "foto": "NICOLLY DA SILVA THOMAZINI.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 23,
+      "nome": "PEDRO DE ALBUQUERQUE FERREIRA",
+      "tutor": "Emeline",
+      "foto": "PEDRO DE ALBUQUERQUE FERREIRA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 24,
+      "nome": "PEDRO HENRIQUE ALVES DA SILVA",
+      "tutor": "Luan",
+      "foto": "PEDRO HENRIQUE ALVES DA SILVA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 25,
+      "nome": "PEDRO HENRIQUE MATEUS DA SILVA",
+      "tutor": "Cecília",
+      "foto": "PEDRO HENRIQUE MATEUS DA SILVA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 26,
+      "nome": "RAPHAELLY CAMILLY ROBERTO",
+      "tutor": "Cecília",
+      "foto": "RAPHAELLY CAMILLY ROBERTO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 27,
+      "nome": "RAQUEL HELENA VICENTE DA SILVA",
+      "tutor": "Cristiane",
+      "foto": "RAQUEL HELENA VICENTE DA SILVA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 28,
+      "nome": "REBEKA ISMAELLY DE OLIVEIRA",
+      "tutor": "Luan",
+      "foto": "REBEKA ISMAELLY DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 29,
+      "nome": "RENAN FERNANDES BARBOSA",
+      "tutor": "Renato",
+      "foto": "RENAN FERNANDES BARBOSA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 30,
+      "nome": "SOFÍ GONÇALVES DOS REIS",
+      "tutor": "Juliana",
+      "foto": "SOFÍ GONÇALVES DOS REIS.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 31,
+      "nome": "SOFIA TOTENE GIMENEZ",
+      "tutor": "Fernando",
+      "foto": "SOFIA TOTENE GIMENEZ.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 32,
+      "nome": "SOPHIA ROBERTA DA SILVEIRA ALBUQUERQUE",
+      "tutor": "Augusto",
+      "foto": "SOPHIA ROBERTA DA SILVEIRA ALBUQUERQUE.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 33,
+      "nome": "TACIANE VITÓRIA SIMÕES",
+      "tutor": "Fernando",
+      "foto": "TACIANE VITÓRIA SIMÕES.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 34,
+      "nome": "TAYLINE CRISTINA NASCIMENTO DOS SANTOS",
+      "tutor": "Cecília",
+      "foto": "TAYLINE CRISTINA NASCIMENTO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 35,
+      "nome": "VICTOR MIGUEL PEREIRA DE ARAUJO",
+      "tutor": "Emeline",
+      "foto": "VICTOR MIGUEL PEREIRA DE ARAUJO.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 36,
+      "nome": "VINÍCIUS EDUARDO NASCIMENTO DE OLIVEIRA",
+      "tutor": "Cecília",
+      "foto": "VINÍCIUS EDUARDO NASCIMENTO DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 37,
+      "nome": "VITÓRIA DE JESUS TEIXEIRA",
+      "tutor": "Cristiane",
+      "foto": "VITÓRIA DE JESUS TEIXEIRA.jpg"
+    },
+    {
+      "sala": "7B",
+      "chamada": 38,
+      "nome": "VITÓRIA ISABELLY NOGUEIRA CAMPEZONI",
+      "tutor": "Aline H",
+      "foto": "VITÓRIA ISABELLY NOGUEIRA CAMPEZONI.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 1,
+      "nome": "ADRIELLY PINHEIRO DE ARAUJO",
+      "tutor": "Augusto",
+      "foto": "ADRIELLY PINHEIRO DE ARAUJO.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 2,
+      "nome": "ANDRÉ LUIZ CARVALHO DOS SANTOS",
+      "tutor": "Emeline",
+      "foto": "ANDRÉ LUIZ CARVALHO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 3,
+      "nome": "ARYANA MARIÉLLI MARÇAL",
+      "tutor": "Aline A",
+      "foto": "ARYANA MARIÉLLI MARÇAL.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 5,
+      "nome": "EDER LUIZ RODRIGUES DOS SANTOS",
+      "tutor": "Aline A",
+      "foto": "EDER LUIZ RODRIGUES DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 6,
+      "nome": "ELLOA CRYSTINNE BORGES PIRES",
+      "tutor": "Aline A",
+      "foto": "ELLOA CRYSTINNE BORGES PIRES.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 7,
+      "nome": "ELOAH PROCOPIO CREPALDI",
+      "tutor": "Fernando",
+      "foto": "ELOAH PROCOPIO CREPALDI.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 8,
+      "nome": "EMANUELLY DA SILVA NASCIMENTO BARBOSA",
+      "tutor": "Juliana",
+      "foto": "EMANUELLY DA SILVA NASCIMENTO BARBOSA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 9,
+      "nome": "EVELYN CRISTINA TEIXEIRA IZIDORO",
+      "tutor": "Aline H",
+      "foto": "EVELYN CRISTINA TEIXEIRA IZIDORO.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 10,
+      "nome": "GABRIEL LEANDRO SANTOS",
+      "tutor": "Emeline",
+      "foto": "GABRIEL LEANDRO SANTOS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 11,
+      "nome": "GABRIELLA DOS SANTOS MORAIS",
+      "tutor": "Emeline",
+      "foto": "GABRIELLA DOS SANTOS MORAIS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 12,
+      "nome": "GIOVANA REIS DE OLIVEIRA",
+      "tutor": "Aline H",
+      "foto": "GIOVANA REIS DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 13,
+      "nome": "GUILHERME CAMPOS DE SOUZA",
+      "tutor": "Cristiane",
+      "foto": "GUILHERME CAMPOS DE SOUZA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 14,
+      "nome": "GUILHERME IBRAHIM DE OLIVEIRA SOARES",
+      "tutor": "Aline A",
+      "foto": "GUILHERME IBRAHIM DE OLIVEIRA SOARES.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 15,
+      "nome": "HEITOR MIGUEL DIAS BRUZINGA",
+      "tutor": "Aline H",
+      "foto": "HEITOR MIGUEL DIAS BRUZINGA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 16,
+      "nome": "HENRY GABRIEL DE TOLEDO CONCEIÇÃO",
+      "tutor": "Daniel",
+      "foto": "HENRY GABRIEL DE TOLEDO CONCEIÇÃO.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 17,
+      "nome": "ISABELLY EDUARDA TURBIANI VIEIRA",
+      "tutor": "Cristiane",
+      "foto": "ISABELLY EDUARDA TURBIANI VIEIRA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 18,
+      "nome": "ISAQ MASSANOBU DE SOUZA SILVA",
+      "tutor": "Rose",
+      "foto": "ISAQ MASSANOBU DE SOUZA SILVA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 19,
+      "nome": "JOÃO LUCAS FRAZÃO DOS SANTOS",
+      "tutor": "Aline A",
+      "foto": "JOÃO LUCAS FRAZÃO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 20,
+      "nome": "KAUAN DE FREITAS GOMES",
+      "tutor": "Daniel",
+      "foto": "KAUAN DE FREITAS GOMES.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 21,
+      "nome": "KEVIN DA SILVA REIS",
+      "tutor": "Aline A",
+      "foto": "KEVIN DA SILVA REIS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 22,
+      "nome": "LETICIA VITORIA DA SILVA BARBOSA",
+      "tutor": "Emeline",
+      "foto": "LETICIA VITORIA DA SILVA BARBOSA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 23,
+      "nome": "LÍVIA MARIA TOLEDO DA SILVA",
+      "tutor": "Rose",
+      "foto": "LÍVIA MARIA TOLEDO DA SILVA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 24,
+      "nome": "LORENA ISABELLE AMORIELL ROSA",
+      "tutor": "Cecília",
+      "foto": "LORENA ISABELLE AMORIELL ROSA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 25,
+      "nome": "LORRAYNE SANTOS MUNIZ",
+      "tutor": "Aline H",
+      "foto": "LORRAYNE SANTOS MUNIZ.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 26,
+      "nome": "LUIS MIGUEL CINTRA LOVO",
+      "tutor": "Rose",
+      "foto": "LUIS MIGUEL CINTRA LOVO.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 27,
+      "nome": "MARIA CLARA DE CARVALHO",
+      "tutor": "Aline A.",
+      "foto": "MARIA CLARA DE CARVALHO.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 29,
+      "nome": "MIGUEL FERREIRA NERY",
+      "tutor": "Cecília",
+      "foto": "MIGUEL FERREIRA NERY.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 30,
+      "nome": "NICOLAS MIGUEL TOME DOMINGOS",
+      "tutor": "Renato",
+      "foto": "NICOLAS MIGUEL TOME DOMINGOS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 33,
+      "nome": "RYAN SOUZA ROCHA",
+      "tutor": "Rose",
+      "foto": "RYAN SOUZA ROCHA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 34,
+      "nome": "SAMUEL FELIPE PEREIRA SOUSA SANTOS",
+      "tutor": "Cristiane",
+      "foto": "SAMUEL FELIPE PEREIRA SOUSA SANTOS.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 36,
+      "nome": "YASMIM MANARA SILVESTRE",
+      "tutor": "Augusto",
+      "foto": "YASMIM MANARA SILVESTRE.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 37,
+      "nome": "YASMIM RAMOS FERREIRA DE SOUZA",
+      "tutor": "Fabiana",
+      "foto": "YASMIM RAMOS FERREIRA DE SOUZA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 38,
+      "nome": "MICAELY VITÓRIA VILELA DA SILVA",
+      "tutor": "Rose",
+      "foto": "MICAELY VITÓRIA VILELA DA SILVA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 40,
+      "nome": "ELOAH CRISTINY ANDRADE DE SOUZA",
+      "tutor": "—",
+      "foto": "ELOAH CRISTINY ANDRADE DE SOUZA.jpg"
+    },
+    {
+      "sala": "7C",
+      "chamada": 41,
+      "nome": "YAGO EDUARDO SILVA DE MELO",
+      "tutor": "—",
+      "foto": "YAGO EDUARDO SILVA DE MELO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 1,
+      "nome": "ALICE SANTOS PERACI",
+      "tutor": "Juliana",
+      "foto": "ALICE SANTOS PERACI.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 2,
+      "nome": "ANA CAROLINA DA SILVA",
+      "tutor": "Fabiana",
+      "foto": "ANA CAROLINA DA SILVA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 3,
+      "nome": "ANA CLARA FERONATTO",
+      "tutor": "Aline H.",
+      "foto": "ANA CLARA FERONATTO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 4,
+      "nome": "ANA LAURA DA SILVA MOREIRA",
+      "tutor": "Fabiana",
+      "foto": "ANA LAURA DA SILVA MOREIRA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 5,
+      "nome": "ANA LUÍZA QUEIROZ SERAFIM",
+      "tutor": "Mara",
+      "foto": "ANA LUÍZA QUEIROZ SERAFIM.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 6,
+      "nome": "ANDREW OTÁVIO DO CARMO",
+      "tutor": "Daniel",
+      "foto": "ANDREW OTÁVIO DO CARMO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 7,
+      "nome": "BRYAN MARCELO DE OLIVEIRA SANTOS",
+      "tutor": "Augusto",
+      "foto": "BRYAN MARCELO DE OLIVEIRA SANTOS.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 8,
+      "nome": "DANDARA YASMIM FERNANDES DE CARVALHO",
+      "tutor": "Aline A",
+      "foto": "DANDARA YASMIM FERNANDES DE CARVALHO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 10,
+      "nome": "ELLEN GRAZIELLA BERNARDO",
+      "tutor": "Ana",
+      "foto": "ELLEN GRAZIELLA BERNARDO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 12,
+      "nome": "EVELLYN MARIANE PRIETO",
+      "tutor": "Daniel",
+      "foto": "EVELLYN MARIANE PRIETO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 13,
+      "nome": "GUILHERME ANTONIO SANTOS LAURINDO",
+      "tutor": "Daniel",
+      "foto": "GUILHERME ANTONIO SANTOS LAURINDO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 14,
+      "nome": "ISAAC WILLIAN FERREIRA ROBERTO",
+      "tutor": "Renato",
+      "foto": "ISAAC WILLIAN FERREIRA ROBERTO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 15,
+      "nome": "JHESSICA LINO DOS SANTOS",
+      "tutor": "Juliana",
+      "foto": "JHESSICA LINO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 16,
+      "nome": "JOÃO VICTOR DA COSTA OLIVEIRA",
+      "tutor": "Rose",
+      "foto": "JOÃO VICTOR DA COSTA OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 17,
+      "nome": "JOÃO VICTOR DE ALKIMI SILVA",
+      "tutor": "Rose",
+      "foto": "JOÃO VICTOR DE ALKIMI SILVA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 18,
+      "nome": "JOÃO VÍTOR LEAL DA SILVA",
+      "tutor": "Mara",
+      "foto": "JOÃO VÍTOR LEAL DA SILVA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 20,
+      "nome": "KAILLAYNE VITÓRIA ALCANTARA DA SILVA",
+      "tutor": "Juliana",
+      "foto": "KAILLAYNE VITÓRIA ALCANTARA DA SILVA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 21,
+      "nome": "KAIQUE DE CAMPOS THOMAZINI SABINO",
+      "tutor": "David",
+      "foto": "KAIQUE DE CAMPOS THOMAZINI SABINO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 22,
+      "nome": "KENNEDY GABRIEL DO NASCIMENTO",
+      "tutor": "Renato",
+      "foto": "KENNEDY GABRIEL DO NASCIMENTO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 23,
+      "nome": "LARISSA GABRIELA GRANADO",
+      "tutor": "Juliana",
+      "foto": "LARISSA GABRIELA GRANADO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 24,
+      "nome": "LINCOLN ADIEL RIBEIRO",
+      "tutor": "Daniel",
+      "foto": "LINCOLN ADIEL RIBEIRO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 25,
+      "nome": "LÍVIA GONÇALVES DOS SANTOS",
+      "tutor": "Daniel",
+      "foto": "LÍVIA GONÇALVES DOS SANTOS.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 26,
+      "nome": "LUCAS DAVI DE OLIVEIRA MORAIS",
+      "tutor": "Renato",
+      "foto": "LUCAS DAVI DE OLIVEIRA MORAIS.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 27,
+      "nome": "MANUELA VITÓRIA DE SOUZA",
+      "tutor": "Juliana",
+      "foto": "MANUELA VITÓRIA DE SOUZA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 29,
+      "nome": "MARIA FERNANDA DE FÁTIMA CAMARGO",
+      "tutor": "Fernando",
+      "foto": "MARIA FERNANDA DE FÁTIMA CAMARGO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 30,
+      "nome": "MIRIANI CRISTINA SILVA PEREIRA",
+      "tutor": "Aline H.",
+      "foto": "MIRIANI CRISTINA SILVA PEREIRA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 31,
+      "nome": "NÍCOLAS LUAN APOLINÁRIO GUEDES",
+      "tutor": "Daniel",
+      "foto": "NÍCOLAS LUAN APOLINÁRIO GUEDES.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 33,
+      "nome": "PIETRO DOS SANTOS FERREIRA",
+      "tutor": "Renato",
+      "foto": "PIETRO DOS SANTOS FERREIRA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 34,
+      "nome": "SAMUEL VALDEVINO DA SILVA",
+      "tutor": "Aline H.",
+      "foto": "SAMUEL VALDEVINO DA SILVA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 35,
+      "nome": "THAYSLA GABRIELLE DE SOUSA LOPES",
+      "tutor": "Fernando",
+      "foto": "THAYSLA GABRIELLE DE SOUSA LOPES.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 36,
+      "nome": "THIAGO HENRIQUE DE MACEDO",
+      "tutor": "Aline H.",
+      "foto": "THIAGO HENRIQUE DE MACEDO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 37,
+      "nome": "VICTOR AUGUSTO SILVA DA CRUZ",
+      "tutor": "Augusto",
+      "foto": "VICTOR AUGUSTO SILVA DA CRUZ.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 38,
+      "nome": "VICTÓRIA DIAS DA SILVA RAMALHO",
+      "tutor": "Cristiane",
+      "foto": "VICTÓRIA DIAS DA SILVA RAMALHO.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 39,
+      "nome": "VINÍCIUS LUÍS DA SILVA",
+      "tutor": "Daniel",
+      "foto": "VINÍCIUS LUÍS DA SILVA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 42,
+      "nome": "AGATHA FERREIRA DA SILVA",
+      "tutor": "—",
+      "foto": "AGATHA FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "8A",
+      "chamada": 43,
+      "nome": "MIKAELLA RIBEIRO DE FARIAS",
+      "tutor": "—",
+      "foto": "MIKAELLA RIBEIRO DE FARIAS.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 1,
+      "nome": "ALEJANDRO GABRIEL SILVA DE OLIVEIRA",
+      "tutor": "Beatriz EF",
+      "foto": "ALEJANDRO GABRIEL SILVA DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 2,
+      "nome": "ALERRANDRO SALES BARBOSA",
+      "tutor": "Fabiana",
+      "foto": "ALERRANDRO SALES BARBOSA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 3,
+      "nome": "AMANDA CALDEIRA FARIAS DE OLIVEIRA",
+      "tutor": "Beatriz EF",
+      "foto": "AMANDA CALDEIRA FARIAS DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 4,
+      "nome": "ANA LAURA OLIVEIRA DE ALMEIDA",
+      "tutor": "Cristiane",
+      "foto": "ANA LAURA OLIVEIRA DE ALMEIDA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 5,
+      "nome": "ANTHONY GABRIEL DE TOLEDO CONCEIÇÃO",
+      "tutor": "Ana",
+      "foto": "ANTHONY GABRIEL DE TOLEDO CONCEIÇÃO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 6,
+      "nome": "BIANCA KAROLINE DA SILVA FONSECA",
+      "tutor": "Aline H",
+      "foto": "BIANCA KAROLINE DA SILVA FONSECA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 7,
+      "nome": "DALYSON DE SOUZA MELO",
+      "tutor": "Aline H",
+      "foto": "DALYSON DE SOUZA MELO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 9,
+      "nome": "GIOVANA LETÍCIA SOUZA ROSA",
+      "tutor": "Aline H",
+      "foto": "GIOVANA LETÍCIA SOUZA ROSA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 10,
+      "nome": "HENRY VÍTOR MARTINS BARBOSA",
+      "tutor": "Valdo",
+      "foto": "HENRY VÍTOR MARTINS BARBOSA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 11,
+      "nome": "ISABELLA GIOVANA RODOLFO",
+      "tutor": "Aline H",
+      "foto": "ISABELLA GIOVANA RODOLFO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 13,
+      "nome": "JOÃO MATHEUS NASCIMENTO DOS SANTOS",
+      "tutor": "David",
+      "foto": "JOÃO MATHEUS NASCIMENTO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 14,
+      "nome": "JONATAS DAVI SERRANO DA SILVA",
+      "tutor": "Aline H",
+      "foto": "JONATAS DAVI SERRANO DA SILVA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 15,
+      "nome": "JORGE SAMUEL AMANCIO DE OLIVEIRA",
+      "tutor": "Valdo",
+      "foto": "JORGE SAMUEL AMANCIO DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 16,
+      "nome": "KAROLAYNE VITÓRIA APARECIDA SALVADOR DE ANDRADE",
+      "tutor": "Beatriz EF",
+      "foto": "KAROLAYNE VITÓRIA APARECIDA SALVADOR DE ANDRADE.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 17,
+      "nome": "LORENNA NASCIMENTO DA SILVA",
+      "tutor": "Augusto",
+      "foto": "LORENNA NASCIMENTO DA SILVA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 18,
+      "nome": "LUCAS DAVI DA SILVA COSTA",
+      "tutor": "Fernando",
+      "foto": "LUCAS DAVI DA SILVA COSTA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 19,
+      "nome": "LUIZ OTÁVIO DOS REIS PEDRO",
+      "tutor": "Juliana",
+      "foto": "LUIZ OTÁVIO DOS REIS PEDRO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 20,
+      "nome": "MICKEL MATHEUS SANTANA DE FREITAS",
+      "tutor": "Beatriz EF",
+      "foto": "MICKEL MATHEUS SANTANA DE FREITAS.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 21,
+      "nome": "MIGUEL HENRIQUE QUARESMA DE MENEZES",
+      "tutor": "Aline H",
+      "foto": "MIGUEL HENRIQUE QUARESMA DE MENEZES.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 22,
+      "nome": "MIRELLA FERNANDA DA SILVA",
+      "tutor": "Aline H",
+      "foto": "MIRELLA FERNANDA DA SILVA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 23,
+      "nome": "MIRELLY CRISTINA SILVA PEREIRA",
+      "tutor": "Juliana",
+      "foto": "MIRELLY CRISTINA SILVA PEREIRA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 24,
+      "nome": "NAYARA BEATRIZ FERREIRA GOMES",
+      "tutor": "Aline H",
+      "foto": "NAYARA BEATRIZ FERREIRA GOMES.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 25,
+      "nome": "NÍCOLAS BRAYAN DE LIMA SILVA",
+      "tutor": "Aline H",
+      "foto": "NÍCOLAS BRAYAN DE LIMA SILVA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 26,
+      "nome": "NICOLE FERREIRA BARBOSA",
+      "tutor": "Aline H",
+      "foto": "NICOLE FERREIRA BARBOSA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 27,
+      "nome": "PAULO OLIVEIRA",
+      "tutor": "David",
+      "foto": "PAULO OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 28,
+      "nome": "PEDRO HENRIQUE SANTANA NASCIMENTO",
+      "tutor": "Valdo",
+      "foto": "PEDRO HENRIQUE SANTANA NASCIMENTO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 29,
+      "nome": "RAFAEL EDUARDO OLIVEIRA MATOS",
+      "tutor": "David",
+      "foto": "RAFAEL EDUARDO OLIVEIRA MATOS.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 30,
+      "nome": "THAÍS VITÓRIA ALVES RIBEIRO",
+      "tutor": "Juliana",
+      "foto": "THAÍS VITÓRIA ALVES RIBEIRO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 31,
+      "nome": "TIAGO DOS SANTOS FERRARI",
+      "tutor": "Mara",
+      "foto": "TIAGO DOS SANTOS FERRARI.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 32,
+      "nome": "VIVIAN VITÓRIA DE JESUS",
+      "tutor": "Ana",
+      "foto": "VIVIAN VITÓRIA DE JESUS.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 33,
+      "nome": "WALLISON HENRIQUE DE SOUZA",
+      "tutor": "Mara",
+      "foto": "WALLISON HENRIQUE DE SOUZA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 34,
+      "nome": "WENDLEY GABRIEL GOMES IZIDORO",
+      "tutor": "Beatriz EF",
+      "foto": "WENDLEY GABRIEL GOMES IZIDORO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 35,
+      "nome": "WILLIAN ARRUDA DE SOUZA",
+      "tutor": "Mara",
+      "foto": "WILLIAN ARRUDA DE SOUZA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 36,
+      "nome": "YASMIM GONÇALVES DA SILVA",
+      "tutor": "Augusto",
+      "foto": "YASMIM GONÇALVES DA SILVA.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 38,
+      "nome": "ELLEN FONTANIELLO",
+      "tutor": "—",
+      "foto": "ELLEN FONTANIELLO.jpg"
+    },
+    {
+      "sala": "8B",
+      "chamada": 40,
+      "nome": "CAMILA LOPES ATAIDE",
+      "tutor": "—",
+      "foto": "CAMILA LOPES ATAIDE.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 1,
+      "nome": "AGATHA APARECIDA DE OLIVEIRA",
+      "tutor": "Aline H",
+      "foto": "AGATHA APARECIDA DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 2,
+      "nome": "ALYCE VITÓRIA FRAGA",
+      "tutor": "Juliana",
+      "foto": "ALYCE VITÓRIA FRAGA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 3,
+      "nome": "ANA LAURA UZAI",
+      "tutor": "Renato",
+      "foto": "ANA LAURA UZAI.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 4,
+      "nome": "BRAYAN ALVES PEREIRA",
+      "tutor": "Aline H",
+      "foto": "BRAYAN ALVES PEREIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 5,
+      "nome": "DAVI NICHOLLAS DE PAULA MIGUEL",
+      "tutor": "Juliana",
+      "foto": "DAVI NICHOLLAS DE PAULA MIGUEL.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 7,
+      "nome": "ERIK GABRIEL FERNANDES VEIGA DOS SANTOS",
+      "tutor": "Ana",
+      "foto": "ERIK GABRIEL FERNANDES VEIGA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 8,
+      "nome": "FELIPE MENDES PEREIRA",
+      "tutor": "Aline H",
+      "foto": "FELIPE MENDES PEREIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 9,
+      "nome": "GABRIELA DE SOUZA CORDEIRO MURILO",
+      "tutor": "Ana",
+      "foto": "GABRIELA DE SOUZA CORDEIRO MURILO.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 10,
+      "nome": "JOÃO VINÍCIOS AMANCIO DE OLIVEIRA",
+      "tutor": "Aline H",
+      "foto": "JOÃO VINÍCIOS AMANCIO DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 11,
+      "nome": "JOÂO VÍTOR DA CUNHA BANDEIRA",
+      "tutor": "Ana",
+      "foto": "JOÂO VÍTOR DA CUNHA BANDEIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 12,
+      "nome": "JONATAS DOS SANTOS CADINI",
+      "tutor": "Aline H",
+      "foto": "JONATAS DOS SANTOS CADINI.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 13,
+      "nome": "JÚLIA VICTÓRIA DA COSTA OLIVEIRA",
+      "tutor": "Beatriz EF",
+      "foto": "JÚLIA VICTÓRIA DA COSTA OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 14,
+      "nome": "JÚLIA VICTÓRIA POSSOLINO",
+      "tutor": "Juliana",
+      "foto": "JÚLIA VICTÓRIA POSSOLINO.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 15,
+      "nome": "KELVIN SOUZA SILVA",
+      "tutor": "Beatriz EF",
+      "foto": "KELVIN SOUZA SILVA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 17,
+      "nome": "LETÍCIA MACHADO DA SILVA",
+      "tutor": "Aline H",
+      "foto": "LETÍCIA MACHADO DA SILVA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 18,
+      "nome": "LORENA GABRIELLY DE OLIVEIRA",
+      "tutor": "Juliana",
+      "foto": "LORENA GABRIELLY DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 19,
+      "nome": "LORENA VITÓRIA DE OLIVEIRA",
+      "tutor": "Cristiane",
+      "foto": "LORENA VITÓRIA DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 21,
+      "nome": "LUÍS HENRIQUE DA SILVA MEIRELES CAMPINA",
+      "tutor": "Roseane",
+      "foto": "LUÍS HENRIQUE DA SILVA MEIRELES CAMPINA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 22,
+      "nome": "MARIA CLARA DA SILVA",
+      "tutor": "Ana",
+      "foto": "MARIA CLARA DA SILVA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 23,
+      "nome": "MARIA EDUARDA CRISTINA GOES",
+      "tutor": "Fabiana",
+      "foto": "MARIA EDUARDA CRISTINA GOES.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 24,
+      "nome": "MARIA GABRIELLY DA SILVA",
+      "tutor": "Aline H",
+      "foto": "MARIA GABRIELLY DA SILVA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 25,
+      "nome": "MIGUEL HENRIQUE DOS SANTOS",
+      "tutor": "Beatriz EF",
+      "foto": "MIGUEL HENRIQUE DOS SANTOS.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 26,
+      "nome": "MONIQUE CRISTINA DA SILVA SEBASTIÃO",
+      "tutor": "Aline A",
+      "foto": "MONIQUE CRISTINA DA SILVA SEBASTIÃO.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 27,
+      "nome": "NYCOLAS VINÍCIUS MARQUES DAVID",
+      "tutor": "Juliana",
+      "foto": "NYCOLAS VINÍCIUS MARQUES DAVID.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 28,
+      "nome": "RAQUEL VITÓRIA BASTOS DA LUZ",
+      "tutor": "Mara",
+      "foto": "RAQUEL VITÓRIA BASTOS DA LUZ.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 29,
+      "nome": "RYAN SALATIEL DE OLIVEIRA FEITOSA",
+      "tutor": "Beatriz EF",
+      "foto": "RYAN SALATIEL DE OLIVEIRA FEITOSA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 30,
+      "nome": "SAMANTHA VICTÓRIA CARLOS BERNARDES",
+      "tutor": "Renato",
+      "foto": "SAMANTHA VICTÓRIA CARLOS BERNARDES.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 31,
+      "nome": "VALTER DOS SANTOS PASSOS JÚNIOR",
+      "tutor": "Roseane",
+      "foto": "VALTER DOS SANTOS PASSOS JÚNIOR.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 32,
+      "nome": "VICTOR HUGO TRISTAO VALIN",
+      "tutor": "Aline H",
+      "foto": "VICTOR HUGO TRISTAO VALIN.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 33,
+      "nome": "VINICIUS ARRUDA DE SOUZA",
+      "tutor": "Beatriz EF",
+      "foto": "VINICIUS ARRUDA DE SOUZA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 34,
+      "nome": "VINÍCIUS RODRIGUES MOITINHO",
+      "tutor": "Aline A",
+      "foto": "VINÍCIUS RODRIGUES MOITINHO.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 35,
+      "nome": "VIVIAN PAZINI MOTA",
+      "tutor": "Beatriz EF",
+      "foto": "VIVIAN PAZINI MOTA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 36,
+      "nome": "YASMIM VITÓRIA LOPES",
+      "tutor": "Roseane",
+      "foto": "YASMIM VITÓRIA LOPES.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 37,
+      "nome": "YASMIN VITÓRIA SOUZA MACHADO",
+      "tutor": "Ana",
+      "foto": "YASMIN VITÓRIA SOUZA MACHADO.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 38,
+      "nome": "EMANUELLE CORDEIRO DE LIMA",
+      "tutor": "Daniel",
+      "foto": "EMANUELLE CORDEIRO DE LIMA.jpg"
+    },
+    {
+      "sala": "8C",
+      "chamada": 39,
+      "nome": "MARIA EMANUELLY PEREIRA DA COSTA",
+      "tutor": "—",
+      "foto": "MARIA EMANUELLY PEREIRA DA COSTA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 1,
+      "nome": "ALEJANDRO BATISTA",
+      "tutor": "Valdo",
+      "foto": "ALEJANDRO BATISTA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 2,
+      "nome": "ANA LÍVIA DE SOUZA ROQUE",
+      "tutor": "Rebeca",
+      "foto": "ANA LÍVIA DE SOUZA ROQUE.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 3,
+      "nome": "BRENO ANTONY SOUZA MELLO",
+      "tutor": "Ana",
+      "foto": "BRENO ANTONY SOUZA MELLO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 5,
+      "nome": "ELOÍSA AMARO MACEDO",
+      "tutor": "Elida",
+      "foto": "ELOÍSA AMARO MACEDO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 7,
+      "nome": "GUILHERME DE FREITAS NASCIMENTO",
+      "tutor": "Fernando",
+      "foto": "GUILHERME DE FREITAS NASCIMENTO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 8,
+      "nome": "GUSTAVO HENRIQUE DE LIMA",
+      "tutor": "Luan",
+      "foto": "GUSTAVO HENRIQUE DE LIMA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 9,
+      "nome": "HEBRAYN CASSIMIRO GALEGO",
+      "tutor": "Alequissandro",
+      "foto": "HEBRAYN CASSIMIRO GALEGO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 10,
+      "nome": "JOSÉ GABRIEL DE SOUZA",
+      "tutor": "Luan",
+      "foto": "JOSÉ GABRIEL DE SOUZA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 11,
+      "nome": "JULIA RAFAELLY LIMA DE BEM",
+      "tutor": "Valdo",
+      "foto": "JULIA RAFAELLY LIMA DE BEM.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 12,
+      "nome": "KATHELYN SOFIA DA SILVA MIRANDA",
+      "tutor": "Rose",
+      "foto": "KATHELYN SOFIA DA SILVA MIRANDA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 14,
+      "nome": "LAVINIA DE SOUZA JESUINO",
+      "tutor": "Valdo",
+      "foto": "LAVINIA DE SOUZA JESUINO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 15,
+      "nome": "LIVIA HELENA DA SILVA",
+      "tutor": "Renato",
+      "foto": "LIVIA HELENA DA SILVA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 16,
+      "nome": "LUAN HANIEL COSTA",
+      "tutor": "Fernando",
+      "foto": "LUAN HANIEL COSTA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 17,
+      "nome": "LUIZ CALEBE FERNANDES DE SOUZA",
+      "tutor": "Valdo",
+      "foto": "LUIZ CALEBE FERNANDES DE SOUZA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 18,
+      "nome": "MARIA CLARA DOS SANTOS GOMES",
+      "tutor": "Luan",
+      "foto": "MARIA CLARA DOS SANTOS GOMES.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 19,
+      "nome": "MARIA EDUARDA MONTEIRO GUIMARAES",
+      "tutor": "Renato",
+      "foto": "MARIA EDUARDA MONTEIRO GUIMARAES.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 20,
+      "nome": "MARIANA CRISTINA DE MELO",
+      "tutor": "Alequissandro",
+      "foto": "MARIANA CRISTINA DE MELO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 21,
+      "nome": "MATEUS HENRIQUE MODRO",
+      "tutor": "David",
+      "foto": "MATEUS HENRIQUE MODRO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 22,
+      "nome": "MIGUEL DE ALBUQUERQUE FERREIRA",
+      "tutor": "Valdo",
+      "foto": "MIGUEL DE ALBUQUERQUE FERREIRA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 23,
+      "nome": "MIGUEL HENRIQUE DE SOUZA CAETANO",
+      "tutor": "Rebeca",
+      "foto": "MIGUEL HENRIQUE DE SOUZA CAETANO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 24,
+      "nome": "NÍCOLAS RENATO FARIA PEDROZO",
+      "tutor": "Valdo",
+      "foto": "NÍCOLAS RENATO FARIA PEDROZO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 25,
+      "nome": "NOEMI MELO RODRIGUES PERALLI",
+      "tutor": "Roseane",
+      "foto": "NOEMI MELO RODRIGUES PERALLI.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 26,
+      "nome": "PAULO RICARDO ARRAIS DE OLIVEIRA",
+      "tutor": "Emeline",
+      "foto": "PAULO RICARDO ARRAIS DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 27,
+      "nome": "PEDRO GABRIEL ORTIZ PEIXOTO",
+      "tutor": "Elida",
+      "foto": "PEDRO GABRIEL ORTIZ PEIXOTO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 28,
+      "nome": "REBECA VICTORIA VASCONCELOS DE LIMA",
+      "tutor": "Rose",
+      "foto": "REBECA VICTORIA VASCONCELOS DE LIMA.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 30,
+      "nome": "TAINNA RHIANNA DA FONSECA SANTOS",
+      "tutor": "Elida",
+      "foto": "TAINNA RHIANNA DA FONSECA SANTOS.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 31,
+      "nome": "VICTOR GABRIEL DOS REIS CARVALHO",
+      "tutor": "Valdo",
+      "foto": "VICTOR GABRIEL DOS REIS CARVALHO.jpg"
+    },
+    {
+      "sala": "9A",
+      "chamada": 32,
+      "nome": "VITÓRIA GOMES DE FREITAS",
+      "tutor": "Elida",
+      "foto": "VITÓRIA GOMES DE FREITAS.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 1,
+      "nome": "ANA LÍVIA DAS NEVES VIANA DOS SANTOS",
+      "tutor": "David",
+      "foto": "ANA LÍVIA DAS NEVES VIANA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 2,
+      "nome": "ANDRESSA FRAZÃO DOS SANTOS",
+      "tutor": "Elida",
+      "foto": "ANDRESSA FRAZÃO DOS SANTOS.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 3,
+      "nome": "BEATRIZ VITÓRIA DE ALMEIDA SANTOS",
+      "tutor": "Roseane",
+      "foto": "BEATRIZ VITÓRIA DE ALMEIDA SANTOS.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 4,
+      "nome": "CARLOS GABRIEL DE OLIVEIRA BORSONE FILHO",
+      "tutor": "David",
+      "foto": "CARLOS GABRIEL DE OLIVEIRA BORSONE FILHO.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 5,
+      "nome": "ESTHER BRAGA RODRIGUES COSTA",
+      "tutor": "Valdo",
+      "foto": "ESTHER BRAGA RODRIGUES COSTA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 6,
+      "nome": "EYSHILLA GABRIELLY DO NASCIMENTO",
+      "tutor": "Beatriz EF",
+      "foto": "EYSHILLA GABRIELLY DO NASCIMENTO.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 7,
+      "nome": "FABIANO DOS SANTOS ALVES DE SOUZA",
+      "tutor": "Augusto",
+      "foto": "FABIANO DOS SANTOS ALVES DE SOUZA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 8,
+      "nome": "GABRIEL AQUINO DE MORAIS",
+      "tutor": "Augusto",
+      "foto": "GABRIEL AQUINO DE MORAIS.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 9,
+      "nome": "GABRIEL SARAIVA ALVES",
+      "tutor": "Beatriz EF",
+      "foto": "GABRIEL SARAIVA ALVES.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 10,
+      "nome": "GUILHERME LIMA GOMES DE SOUZA",
+      "tutor": "Beatriz EF",
+      "foto": "GUILHERME LIMA GOMES DE SOUZA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 11,
+      "nome": "HANNAH ÍADAH MEDEIROS JARDIM",
+      "tutor": "Mara",
+      "foto": "HANNAH ÍADAH MEDEIROS JARDIM.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 12,
+      "nome": "HELLOA LORENA DOS SANTOS ROSA",
+      "tutor": "Roseane",
+      "foto": "HELLOA LORENA DOS SANTOS ROSA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 13,
+      "nome": "ISABELA VITÓRIA DA LAVRA SOARES",
+      "tutor": "Alequissandro",
+      "foto": "ISABELA VITÓRIA DA LAVRA SOARES.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 14,
+      "nome": "ISABELLY DE JESUS TESTA",
+      "tutor": "Alequissandro",
+      "foto": "ISABELLY DE JESUS TESTA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 15,
+      "nome": "ISAQUE DA SILVA VILELA",
+      "tutor": "Alequissandro",
+      "foto": "ISAQUE DA SILVA VILELA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 16,
+      "nome": "IZABELLA KYARA PUTINI MENEZES",
+      "tutor": "Alequissandro",
+      "foto": "IZABELLA KYARA PUTINI MENEZES.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 17,
+      "nome": "LUAN DAVID TAVARES DE OLIVEIRA",
+      "tutor": "Luan",
+      "foto": "LUAN DAVID TAVARES DE OLIVEIRA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 18,
+      "nome": "LUIS MIGUEL MARCELO",
+      "tutor": "Luan",
+      "foto": "LUIS MIGUEL MARCELO.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 19,
+      "nome": "LUIZ OTÁVIO ZIEMELS",
+      "tutor": "Luan",
+      "foto": "LUIZ OTÁVIO ZIEMELS.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 20,
+      "nome": "LUIZ RAPHAEL FERREIRA DA SILVA",
+      "tutor": "Beatriz EF",
+      "foto": "LUIZ RAPHAEL FERREIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 21,
+      "nome": "MATHEUS DA SILVA OLIVEIRA",
+      "tutor": "Beatriz EF",
+      "foto": "MATHEUS DA SILVA OLIVEIRA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 22,
+      "nome": "PEDRO HENRIQUE ALVES BARBOSA",
+      "tutor": "Alequissandro",
+      "foto": "PEDRO HENRIQUE ALVES BARBOSA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 23,
+      "nome": "PETRIC LIBNY DE SOUZA DA SILVA",
+      "tutor": "Beatriz EF",
+      "foto": "PETRIC LIBNY DE SOUZA DA SILVA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 24,
+      "nome": "RAYSSA KAUANY DE ARAUJO",
+      "tutor": "Elida",
+      "foto": "RAYSSA KAUANY DE ARAUJO.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 25,
+      "nome": "SORAIA YASMIM DOS SANTOS COSTA",
+      "tutor": "Beatriz EF",
+      "foto": "SORAIA YASMIM DOS SANTOS COSTA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 26,
+      "nome": "VINICIOS BERNARDO COSTA",
+      "tutor": "Augusto",
+      "foto": "VINICIOS BERNARDO COSTA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 27,
+      "nome": "VITOR HUGO RIBEIRO DE LIMA",
+      "tutor": "Beatriz EF",
+      "foto": "VITOR HUGO RIBEIRO DE LIMA.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 28,
+      "nome": "VITOR MICHEL DA SILVA PIRES",
+      "tutor": "Beatriz EF",
+      "foto": "VITOR MICHEL DA SILVA PIRES.jpg"
+    },
+    {
+      "sala": "9B",
+      "chamada": 29,
+      "nome": "YASMIN FRAZAO SOARES",
+      "tutor": "Elida",
+      "foto": "YASMIN FRAZAO SOARES.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 1,
+      "nome": "ALEXSANDRO OLIVEIRA DA SILVA",
+      "tutor": "David",
+      "foto": "ALEXSANDRO OLIVEIRA DA SILVA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 2,
+      "nome": "ANA JÚLIA DE OLIVEIRA ANDRADE",
+      "tutor": "Elida",
+      "foto": "ANA JÚLIA DE OLIVEIRA ANDRADE.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 3,
+      "nome": "ANDRE GIMENEZ TONOBOHON",
+      "tutor": "David",
+      "foto": "ANDRE GIMENEZ TONOBOHON.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 4,
+      "nome": "ANNA JULIA SANTANA DA SILVA",
+      "tutor": "Elida",
+      "foto": "ANNA JULIA SANTANA DA SILVA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 5,
+      "nome": "BEATRIZ CESAR MUNIZ",
+      "tutor": "Roseane",
+      "foto": "BEATRIZ CESAR MUNIZ.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 6,
+      "nome": "DAVI HENRIQUE BUZATO VIEIRA",
+      "tutor": "Valdo",
+      "foto": "DAVI HENRIQUE BUZATO VIEIRA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 7,
+      "nome": "DAVID MATHEUS CAMARGO DE SOUZA",
+      "tutor": "Beatriz EF",
+      "foto": "DAVID MATHEUS CAMARGO DE SOUZA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 8,
+      "nome": "EDUARDO GABRIEL DE ARAUJO MARTINS",
+      "tutor": "Augusto",
+      "foto": "EDUARDO GABRIEL DE ARAUJO MARTINS.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 9,
+      "nome": "ELLEN MARIA SILVA ROSA",
+      "tutor": "Augusto",
+      "foto": "ELLEN MARIA SILVA ROSA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 10,
+      "nome": "ELOA VITORIA RODRIGUES DE SOUZA",
+      "tutor": "Beatriz EF",
+      "foto": "ELOA VITORIA RODRIGUES DE SOUZA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 11,
+      "nome": "FERNANDO CÉSAR ROSSI DE SOUZA",
+      "tutor": "Mara",
+      "foto": "FERNANDO CÉSAR ROSSI DE SOUZA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 12,
+      "nome": "GABRIEL FERNANDES LIMA DA SILVA",
+      "tutor": "Roseane",
+      "foto": "GABRIEL FERNANDES LIMA DA SILVA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 13,
+      "nome": "GABRIELLA MICHAELLA PETEKECIUS",
+      "tutor": "Alequissandro",
+      "foto": "GABRIELLA MICHAELLA PETEKECIUS.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 14,
+      "nome": "JEAN BRAYAN PARMEZANI SILVÉRIO",
+      "tutor": "Alequissandro",
+      "foto": "JEAN BRAYAN PARMEZANI SILVÉRIO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 15,
+      "nome": "JEFFERSON LUCAS FELIX PROCÓPIO",
+      "tutor": "Alequissandro",
+      "foto": "JEFFERSON LUCAS FELIX PROCÓPIO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 16,
+      "nome": "JOÃO MURILO FELISBERTO DA SILVA",
+      "tutor": "Roseane",
+      "foto": "JOÃO MURILO FELISBERTO DA SILVA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 17,
+      "nome": "JOÃO VITOR DA SILVA REIS",
+      "tutor": "Beatriz EF",
+      "foto": "JOÃO VITOR DA SILVA REIS.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 18,
+      "nome": "JÚLIA DE ARRUDA DE SOUZA",
+      "tutor": "Beatriz EF",
+      "foto": "JÚLIA DE ARRUDA DE SOUZA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 19,
+      "nome": "JULIA LIMA GOMES DE SOUZA",
+      "tutor": "Elida",
+      "foto": "JULIA LIMA GOMES DE SOUZA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 20,
+      "nome": "LINCOLN EDUARDO MUNHOES GOMES",
+      "tutor": "David",
+      "foto": "LINCOLN EDUARDO MUNHOES GOMES.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 21,
+      "nome": "LIVIA MARIANO",
+      "tutor": "Alequissandro",
+      "foto": "LIVIA MARIANO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 22,
+      "nome": "LUIZ HENRIQUE MARCELINO",
+      "tutor": "Luan",
+      "foto": "LUIZ HENRIQUE MARCELINO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 23,
+      "nome": "MARIA CLARA ROSSATTO MARTINIANO",
+      "tutor": "Elida",
+      "foto": "MARIA CLARA ROSSATTO MARTINIANO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 24,
+      "nome": "MARIA VITÓRIA ALVES",
+      "tutor": "—",
+      "foto": "MARIA VITÓRIA ALVES.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 25,
+      "nome": "MATHEUS CRISTIANO BARBOSA DOS SANTOS",
+      "tutor": "Alequissandro",
+      "foto": "MATHEUS CRISTIANO BARBOSA DOS SANTOS.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 26,
+      "nome": "MICHEL KAUAN MARQUES DE SOUSA",
+      "tutor": "Alequissandro",
+      "foto": "MICHEL KAUAN MARQUES DE SOUSA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 27,
+      "nome": "MIGUEL HAILTON DE SOUZA",
+      "tutor": "Alequissandro",
+      "foto": "MIGUEL HAILTON DE SOUZA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 28,
+      "nome": "PEDRO HENRIQUE SILVA DE BARROS",
+      "tutor": "Alequissandro",
+      "foto": "PEDRO HENRIQUE SILVA DE BARROS.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 31,
+      "nome": "RAYSSA VITÓRIA TEODORO",
+      "tutor": "Elida",
+      "foto": "RAYSSA VITÓRIA TEODORO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 32,
+      "nome": "RENAN ELOI DE BRITO",
+      "tutor": "Beatriz EF",
+      "foto": "RENAN ELOI DE BRITO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 33,
+      "nome": "RENATO OLIVEIRA",
+      "tutor": "Ana",
+      "foto": "RENATO OLIVEIRA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 34,
+      "nome": "VICTOR HENRIQUE DA SILVA DE CARVALHO",
+      "tutor": "Beatriz EF",
+      "foto": "VICTOR HENRIQUE DA SILVA DE CARVALHO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 35,
+      "nome": "VITÓRIA YASMIN DA SILVA BERNARDO",
+      "tutor": "Augusto",
+      "foto": "VITÓRIA YASMIN DA SILVA BERNARDO.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 38,
+      "nome": "RYAN FELIPE BATISTA",
+      "tutor": "Luan",
+      "foto": "RYAN FELIPE BATISTA.jpg"
+    },
+    {
+      "sala": "9C",
+      "chamada": 39,
+      "nome": "PAULO ESTEVÃO DE SOUSA",
+      "tutor": "—",
+      "foto": "PAULO ESTEVÃO DE SOUSA.jpg"
     }
   ]
 }
