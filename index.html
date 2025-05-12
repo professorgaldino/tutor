@@ -341,7 +341,7 @@
         
         // Abre a página do aluno no modal
         function openStudentPage(aluno) {
-            const url = `https://professorgaldino.github.io/${aluno.sala}/a${aluno.chamada}.html`;
+            const url = `https://professorgaldino.github.io/${aluno.sala.toLowerCase()}/a${aluno.chamada}.html`;
             studentFrame.src = url;
             modal.style.display = 'block';
         }
