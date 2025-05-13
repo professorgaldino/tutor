@@ -153,7 +153,7 @@
         card.onclick = () => openStudentPage(aluno);
         card.innerHTML = `
           <div class="photo-container">
-            <img src="https://professorgaldino.github.io/fotos/${encodeURIComponent(aluno.nome.trim())}.jpg"
+            <img src="${aluno.foto}" alt="${aluno.nome}" class="student-photo" onerror="this.src='placeholder.jpg'">
           </div>
           <div class="student-info">
             <h3>${aluno.nome}</h3>
