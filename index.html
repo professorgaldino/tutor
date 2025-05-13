@@ -105,15 +105,16 @@
       'marcia': 'senha123', 'dener': 'senha123', 'monica': 'senha123', 'josias': 'senha123', 'fernando': 'senha123'
     };
 
+    const tutorNames = {
+      'beatrizm': 'Beatriz M', 'cristiane': 'Cristiane', 'rebeca': 'Rebeca', 'alinea': 'Aline A', 'mara': 'Mara',
+      'fabiana': 'Fabiana', 'alequissandro': 'Alequissandro', 'david': 'David', 'renato': 'Renato', 'beatrizef': 'Beatriz EF',
+      'daniel': 'Daniel', 'rose': 'Rose', 'cecilia': 'Cecília', 'alineh': 'Aline H', 'augusto': 'Augusto',
+      'juliana': 'Juliana', 'ana': 'Ana', 'luan': 'Luan', 'elida': 'Elida', 'guilherme': 'Guilherme',
+      'everton': 'Everton', 'gabrielnero': 'Gabriel Nero', 'josi': 'Josi', 'edivaldo': 'Edivaldo', 'gabrielmarques': 'Gabriel Marques',
+      'marcia': 'Marcia', 'dener': 'Dener', 'monica': 'Monica', 'josias': 'Josias', 'fernando': 'Fernando'
+    };
+
     function getTutorFullName(username) {
-      const tutorNames = {
-        'beatrizm': 'Beatriz M', 'cristiane': 'Cristiane', 'rebeca': 'Rebeca', 'alinea': 'Aline A', 'mara': 'Mara',
-        'fabiana': 'Fabiana', 'alequissandro': 'Alequissandro', 'david': 'David', 'renato': 'Renato', 'beatrizef': 'Beatriz EF',
-        'daniel': 'Daniel', 'rose': 'Rose', 'cecilia': 'Cecília', 'alineh': 'Aline H', 'augusto': 'Augusto',
-        'juliana': 'Juliana', 'ana': 'Ana', 'luan': 'Luan', 'elida': 'Elida', 'guilherme': 'Guilherme',
-        'everton': 'Everton', 'gabrielnero': 'Gabriel Nero', 'josi': 'Josi', 'edivaldo': 'Edivaldo', 'gabrielmarques': 'Gabriel Marques',
-        'marcia': 'Marcia', 'dener': 'Dener', 'monica': 'Monica', 'josias': 'Josias', 'fernando': 'Fernando'
-      };
       return tutorNames[username] || username;
     }
 
@@ -165,8 +166,7 @@
     }
 
     function openStudentPage(aluno) {
-      const url = `https://professorgaldino.github.io/${aluno.sala}/a${aluno.chamada}.html`;
-      studentFrame.src = url;
+      studentFrame.src = `https://professorgaldino.github.io/sitetv/#/${aluno.nome.replace(/\s+/g, '').toLowerCase()}`;
       modal.style.display = 'block';
     }
 
@@ -174,12 +174,6 @@
       modal.style.display = 'none';
       studentFrame.src = '';
     }
-
-    window.onclick = function(event) {
-      if (event.target === modal) {
-        closeModal();
-      }
-    };
   </script>
 </body>
 </html>
