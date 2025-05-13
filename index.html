@@ -244,6 +244,25 @@
       color: #2c5aa0;
       margin-bottom: 10px;
     }
+
+    .admin-controls {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .admin-controls select {
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+      margin-right: 10px;
+    }
+
+    .admin-controls button {
+      width: auto;
+      padding: 10px 15px;
+      display: inline-block;
+      margin: 0 5px;
+    }
   </style>
 </head>
 <body>
@@ -258,7 +277,7 @@
       <form id="login-form">
         <div class="form-group">
           <label for="username">Usuário:</label>
-          <input type="text" id="username" required placeholder="Ex: david, emeline" />
+          <input type="text" id="username" required placeholder="Ex: beatriz, cristiane, admin" />
         </div>
         <div class="form-group">
           <label for="password">Senha:</label>
@@ -270,6 +289,13 @@
 
     <div id="students-container" class="students-container">
       <div id="welcome-message" class="welcome-message"></div>
+      <div id="admin-controls" class="admin-controls" style="display: none;">
+        <select id="tutor-select">
+          <option value="">Selecione um tutor</option>
+        </select>
+        <button id="filter-button">Filtrar</button>
+        <button id="show-all-button">Mostrar Todos</button>
+      </div>
       <div id="student-grid" class="student-grid">
         <!-- Alunos serão carregados aqui via JavaScript -->
       </div>
@@ -291,9 +317,14 @@
     const modal = document.getElementById('student-modal');
     const studentFrame = document.getElementById('student-frame');
     const welcomeMessage = document.getElementById('welcome-message');
+    const adminControls = document.getElementById('admin-controls');
+    const tutorSelect = document.getElementById('tutor-select');
+    const filterButton = document.getElementById('filter-button');
+    const showAllButton = document.getElementById('show-all-button');
 
     let alunosData = [];
     let currentTutor = '';
+    let isAdmin = false;
 
     async function loadAlunosData() {
       try {
@@ -306,33 +337,142 @@
         alunosData = {
           "alunos": [
             { "nome": "João Silva", "chamada": 5, "sala": "6a", "foto": "João Silva.jpg", "tutor": "david" },
-            { "nome": "Maria Oliveira", "chamada": 12, "sala": "7b", "foto": "Maria Oliveira.jpg", "tutor": "emeline" }
+            { "nome": "Maria Oliveira", "chamada": 12, "sala": "7b", "foto": "Maria Oliveira.jpg", "tutor": "emeline" },
+            { "nome": "Carlos Souza", "chamada": 8, "sala": "6a", "foto": "Carlos Souza.jpg", "tutor": "beatrizm" },
+            { "nome": "Ana Paula", "chamada": 3, "sala": "7b", "foto": "Ana Paula.jpg", "tutor": "cristiane" }
           ]
         };
       }
     }
 
     const validUsers = {
+      'beatrizm': 'senha123',
+      'cristiane': 'senha123',
+      'rebeca': 'senha123',
+      'alinea': 'senha123',
+      'mara': 'senha123',
+      'fabiana': 'senha123',
+      'alequissandro': 'senha123',
       'david': 'senha123',
-      'emeline': 'senha456',
+      'renato': 'senha123',
+      'beatrizef': 'senha123',
+      'daniel': 'senha123',
+      'rose': 'senha123',
+      'cecilia': 'senha123',
+      'alineh': 'senha123',
+      'augusto': 'senha123',
+      'juliana': 'senha123',
+      'ana': 'senha123',
+      'luan': 'senha123',
+      'elida': 'senha123',
+      'guilherme': 'senha123',
+      'everton': 'senha123',
+      'gabrielnero': 'senha123',
+      'josi': 'senha123',
+      'edivaldo': 'senha123',
+      'gabrielmarques': 'senha123',
+      'marcia': 'senha123',
+      'dener': 'senha123',
+      'monica': 'senha123',
+      'josias': 'senha123',
+      'fernando': 'senha123',
       'admin': 'admin123'
     };
 
     loginForm.addEventListener('submit', async function(e) {
       e.preventDefault();
-      const username = document.getElementById('username').value.toLowerCase();
+      const username = document.getElementById('username').value.toLowerCase().replace(/\s/g, '');
       const password = document.getElementById('password').value;
       await loadAlunosData();
+      
       if (validUsers[username] && validUsers[username] === password) {
         currentTutor = username;
+        isAdmin = username === 'admin';
         loginContainer.style.display = 'none';
         studentsContainer.style.display = 'block';
-        welcomeMessage.textContent = `Bem-vindo(a), ${capitalizeFirstLetter(username)}! Seus tutorados:`;
-        loadStudents(username);
+        
+        if (isAdmin) {
+          welcomeMessage.textContent = `Bem-vindo(a), Administrador!`;
+          adminControls.style.display = 'block';
+          populateTutorSelect();
+          loadAllStudents();
+        } else {
+          welcomeMessage.textContent = `Bem-vindo(a), ${getTutorFullName(username)}! Seus tutorados:`;
+          adminControls.style.display = 'none';
+          loadStudents(username);
+        }
       } else {
         alert('Usuário ou senha incorretos!');
       }
     });
+
+    function populateTutorSelect() {
+      tutorSelect.innerHTML = '<option value="">Selecione um tutor</option>';
+      
+      // Extrai todos os tutores únicos da lista de alunos
+      const tutores = [...new Set(alunosData.alunos.map(aluno => aluno.tutor))];
+      
+      tutores.forEach(tutor => {
+        const option = document.createElement('option');
+        option.value = tutor;
+        option.textContent = getTutorFullName(tutor) || tutor;
+        tutorSelect.appendChild(option);
+      });
+    }
+
+    filterButton.addEventListener('click', function() {
+      const selectedTutor = tutorSelect.value;
+      if (selectedTutor) {
+        loadStudents(selectedTutor);
+        welcomeMessage.textContent = `Alunos do tutor: ${getTutorFullName(selectedTutor) || selectedTutor}`;
+      }
+    });
+
+    showAllButton.addEventListener('click', function() {
+      loadAllStudents();
+      welcomeMessage.textContent = 'Todos os alunos (visão administrativa)';
+    });
+
+    function loadAllStudents() {
+      loadStudents('');
+    }
+
+    function getTutorFullName(username) {
+      const tutorNames = {
+        'beatrizm': 'Beatriz M',
+        'cristiane': 'Cristiane',
+        'rebeca': 'Rebeca',
+        'alinea': 'Aline A',
+        'mara': 'Mara',
+        'fabiana': 'Fabiana',
+        'alequissandro': 'Alequissandro',
+        'david': 'David',
+        'renato': 'Renato',
+        'beatrizef': 'Beatriz EF',
+        'daniel': 'Daniel',
+        'rose': 'Rose',
+        'cecilia': 'Cecília',
+        'alineh': 'Aline H',
+        'augusto': 'Augusto',
+        'juliana': 'Juliana',
+        'ana': 'Ana',
+        'luan': 'Luan',
+        'elida': 'Elida',
+        'guilherme': 'Guilherme',
+        'everton': 'Everton',
+        'gabrielnero': 'Gabriel Nero',
+        'josi': 'Josi',
+        'edivaldo': 'Edivaldo',
+        'gabrielmarques': 'Gabriel Marques',
+        'marcia': 'Marcia',
+        'dener': 'Dener',
+        'monica': 'Monica',
+        'josias': 'Josias',
+        'fernando': 'Fernando',
+        'admin': 'Administrador'
+      };
+      return tutorNames[username] || capitalizeFirstLetter(username);
+    }
 
     function capitalizeFirstLetter(str) {
       return str.charAt(0).toUpperCase() + str.slice(1);
@@ -340,16 +480,33 @@
 
     function loadStudents(tutor) {
       studentGrid.innerHTML = '';
-      const alunosDoTutor = alunosData.alunos.filter(aluno => aluno.tutor.toLowerCase() === tutor.toLowerCase());
+      let alunosDoTutor;
+      
+      if (tutor === '') {
+        // Mostrar todos os alunos (modo admin)
+        alunosDoTutor = [...alunosData.alunos];
+      } else {
+        // Filtrar por tutor específico
+        alunosDoTutor = alunosData.alunos.filter(aluno => aluno.tutor.toLowerCase() === tutor.toLowerCase());
+      }
+      
       if (alunosDoTutor.length === 0) {
         studentGrid.innerHTML = `
           <div class="no-students">
             <h3>Nenhum aluno encontrado</h3>
-            <p>Não há alunos cadastrados para este tutor.</p>
+            <p>${tutor ? 'Não há alunos cadastrados para este tutor.' : 'Não há alunos cadastrados no sistema.'}</p>
           </div>`;
         return;
       }
-      alunosDoTutor.sort((a, b) => a.chamada - b.chamada);
+      
+      alunosDoTutor.sort((a, b) => {
+        // Ordena por sala e depois por número de chamada
+        if (a.sala === b.sala) {
+          return a.chamada - b.chamada;
+        }
+        return a.sala.localeCompare(b.sala);
+      });
+      
       alunosDoTutor.forEach(aluno => {
         const card = document.createElement('div');
         card.className = 'student-card';
@@ -362,6 +519,7 @@
             <h3>${aluno.nome}</h3>
             <p>Sala: ${aluno.sala.toUpperCase()}</p>
             <p>Chamada: ${aluno.chamada}</p>
+            ${isAdmin ? `<p>Tutor: ${getTutorFullName(aluno.tutor) || aluno.tutor}</p>` : ''}
           </div>`;
         studentGrid.appendChild(card);
       });
@@ -370,23 +528,21 @@
     function openStudentPage(aluno) {
       studentFrame.src = `boletins/${aluno.sala.toLowerCase()}/${aluno.nome}.html`;
       modal.style.display = 'block';
-      document.body.style.overflow = 'hidden'; // Impede rolagem da página principal
+      document.body.style.overflow = 'hidden';
     }
 
     function closeModal() {
       modal.style.display = 'none';
       studentFrame.src = '';
-      document.body.style.overflow = 'auto'; // Restaura rolagem
+      document.body.style.overflow = 'auto';
     }
 
-    // Fechar modal ao clicar fora do conteúdo
     modal.addEventListener('click', function(e) {
       if (e.target === modal) {
         closeModal();
       }
     });
 
-    // Fechar modal com tecla ESC
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape' && modal.style.display === 'block') {
         closeModal();
