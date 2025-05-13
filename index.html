@@ -1,368 +1,185 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Tutores</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            font-family: 'Arial', sans-serif;
-        }
-        
-        body {
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        header {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        
-        .logo {
-            max-width: 200px;
-            height: auto;
-        }
-        
-        .login-container {
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        
-        .form-group {
-            margin-bottom: 20px;
-        }
-        
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        
-        input {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        
-        button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            width: 100%;
-        }
-        
-        .students-container {
-            display: none;
-            margin-top: 30px;
-        }
-        
-        .student-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 25px;
-        }
-        
-        .student-card {
-            background: white;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-            text-align: center;
-            cursor: pointer;
-            transition: transform 0.3s;
-            padding: 15px;
-        }
-        
-        .student-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-        
-        .photo-container {
-            width: 120px;
-            height: 120px;
-            margin: 0 auto 15px;
-            border-radius: 50%;
-            overflow: hidden;
-            border: 3px solid #4CAF50;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: #f0f0f0;
-        }
-        
-        .student-photo {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        
-        .student-info {
-            padding: 0 5px;
-        }
-        
-        .student-info h3 {
-            margin: 0 0 5px 0;
-            color: #333;
-            font-size: 16px;
-        }
-        
-        .student-info p {
-            margin: 3px 0;
-            color: #666;
-            font-size: 14px;
-        }
-        
-        .modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.7);
-            z-index: 1000;
-        }
-        
-        .modal-content {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80%;
-            height: 80%;
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-        }
-        
-        .close-btn {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            font-size: 30px;
-            color: #333;
-            cursor: pointer;
-            z-index: 1001;
-        }
-        
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        
-        .welcome-message {
-            text-align: center;
-            margin-bottom: 30px;
-            font-size: 20px;
-            color: #2c3e50;
-            padding: 10px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        
-        .no-students {
-            text-align: center;
-            grid-column: 1 / -1;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portal de Tutores</title>
+  <style>
+    * { box-sizing: border-box; font-family: 'Arial', sans-serif; }
+    body { margin: 0; padding: 0; background-color: #f5f5f5; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+    header { text-align: center; margin-bottom: 30px; }
+    .logo { max-width: 200px; height: auto; }
+    .login-container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 400px; margin: 0 auto; }
+    .form-group { margin-bottom: 20px; }
+    label { display: block; margin-bottom: 5px; font-weight: bold; }
+    input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
+    button { background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; width: 100%; }
+    .students-container { display: none; margin-top: 30px; }
+    .student-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 25px; }
+    .student-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1); text-align: center; cursor: pointer; transition: transform 0.3s; padding: 15px; }
+    .student-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
+    .photo-container { width: 120px; height: 120px; margin: 0 auto 15px; border-radius: 50%; overflow: hidden; border: 3px solid #4CAF50; display: flex; align-items: center; justify-content: center; background-color: #f0f0f0; }
+    .student-photo { width: 100%; height: 100%; object-fit: cover; }
+    .student-info { padding: 0 5px; }
+    .student-info h3 { margin: 0 0 5px 0; color: #333; font-size: 16px; }
+    .student-info p { margin: 3px 0; color: #666; font-size: 14px; }
+    .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); z-index: 1000; }
+    .modal-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: 80%; background: white; border-radius: 8px; overflow: hidden; }
+    .close-btn { position: absolute; top: 10px; right: 20px; font-size: 30px; color: #333; cursor: pointer; z-index: 1001; }
+    iframe { width: 100%; height: 100%; border: none; }
+    .welcome-message { text-align: center; margin-bottom: 30px; font-size: 20px; color: #2c3e50; padding: 10px; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .no-students { text-align: center; grid-column: 1 / -1; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <img src="logoescola.png" alt="Logo da Escola" class="logo">
-            <h1>Portal de Tutores</h1>
-        </header>
-        
-        <div id="login-container" class="login-container">
-            <h2>Login do Tutor</h2>
-            <form id="login-form">
-                <div class="form-group">
-                    <label for="username">Usuário:</label>
-                    <input type="text" id="username" required placeholder="Ex: david, emeline">
-                </div>
-                <div class="form-group">
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" required placeholder="Sua senha">
-                </div>
-                <button type="submit">Entrar</button>
-            </form>
+  <div class="container">
+    <header>
+      <img src="logoescola.png" alt="Logo da Escola" class="logo">
+      <h1>Portal de Tutores</h1>
+    </header>
+
+    <div id="login-container" class="login-container">
+      <h2>Login do Tutor</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="username">Usuário:</label>
+          <input type="text" id="username" required placeholder="Ex: david, emeline">
         </div>
-        
-        <div id="students-container" class="students-container">
-            <div id="welcome-message" class="welcome-message"></div>
-            <div id="student-grid" class="student-grid">
-                <!-- Alunos serão carregados aqui via JavaScript -->
-            </div>
+        <div class="form-group">
+          <label for="password">Senha:</label>
+          <input type="password" id="password" required placeholder="Sua senha">
         </div>
+        <button type="submit">Entrar</button>
+      </form>
     </div>
-    
-    <div id="student-modal" class="modal">
-        <span class="close-btn" onclick="closeModal()">&times;</span>
-        <div class="modal-content">
-            <iframe id="student-frame" src=""></iframe>
-        </div>
+
+    <div id="students-container" class="students-container">
+      <div id="welcome-message" class="welcome-message"></div>
+      <div id="student-grid" class="student-grid"></div>
     </div>
-    
-    <script>
-        // Elementos DOM
-        const loginForm = document.getElementById('login-form');
-        const loginContainer = document.getElementById('login-container');
-        const studentsContainer = document.getElementById('students-container');
-        const studentGrid = document.getElementById('student-grid');
-        const modal = document.getElementById('student-modal');
-        const studentFrame = document.getElementById('student-frame');
-        const welcomeMessage = document.getElementById('welcome-message');
-        
-        // Variáveis globais
-        let alunosData = [];
-        let currentTutor = '';
-        
-        // Carrega os dados do arquivo JSON
-        async function loadAlunosData() {
-            try {
-                const response = await fetch('alunossalas.json');
-                if (!response.ok) {
-                    throw new Error('Erro ao carregar os dados dos alunos');
-                }
-                alunosData = await response.json();
-            } catch (error) {
-                console.error('Erro:', error);
-                alert('Erro ao carregar os dados dos alunos. Verifique o console para mais detalhes.');
-                // Dados de exemplo em caso de falha
-                alunosData = {
-                    "alunos": [
-                        {
-                            "nome": "João Silva",
-                            "chamada": 5,
-                            "sala": "6a",
-                            "foto": "João Silva.jpg",
-                            "tutor": "david"
-                        },
-                        {
-                            "nome": "Maria Oliveira",
-                            "chamada": 12,
-                            "sala": "7b",
-                            "foto": "Maria Oliveira.jpg",
-                            "tutor": "emeline"
-                        }
-                    ]
-                };
-            }
-        }
-        
-        // Simulação de autenticação (em um sistema real, isso seria no servidor)
-        const validUsers = {
-            'david': 'senha123',
-            'emeline': 'senha456',
-            'admin': 'admin123'
+  </div>
+
+  <div id="student-modal" class="modal">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+      <iframe id="student-frame" src=""></iframe>
+    </div>
+  </div>
+
+  <script>
+    const loginForm = document.getElementById('login-form');
+    const loginContainer = document.getElementById('login-container');
+    const studentsContainer = document.getElementById('students-container');
+    const studentGrid = document.getElementById('student-grid');
+    const modal = document.getElementById('student-modal');
+    const studentFrame = document.getElementById('student-frame');
+    const welcomeMessage = document.getElementById('welcome-message');
+
+    let alunosData = [];
+    let currentTutor = '';
+
+    async function loadAlunosData() {
+      try {
+        const response = await fetch('alunossalas.json');
+        if (!response.ok) throw new Error('Erro ao carregar os dados dos alunos');
+        alunosData = await response.json();
+      } catch (error) {
+        console.error('Erro:', error);
+        alert('Erro ao carregar os dados dos alunos. Verifique o console.');
+        alunosData = {
+          "alunos": [
+            { "nome": "João Silva", "chamada": 5, "sala": "6a", "foto": "João Silva.jpg", "tutor": "david" },
+            { "nome": "Maria Oliveira", "chamada": 12, "sala": "7b", "foto": "Maria Oliveira.jpg", "tutor": "emeline" }
+          ]
         };
-        
-        // Evento de login
-        loginForm.addEventListener('submit', async function(e) {
-            e.preventDefault();
-            
-            const username = document.getElementById('username').value.toLowerCase();
-            const password = document.getElementById('password').value;
-            
-            // Carrega os dados antes de verificar o login
-            await loadAlunosData();
-            
-            if (validUsers[username] && validUsers[username] === password) {
-                currentTutor = username;
-                loginContainer.style.display = 'none';
-                studentsContainer.style.display = 'block';
-                welcomeMessage.textContent = `Bem-vindo(a), ${capitalizeFirstLetter(username)}! Seus tutorados:`;
-                loadStudents(username);
-            } else {
-                alert('Usuário ou senha incorretos!');
-            }
-        });
-        
-        // Carrega os alunos do tutor
-        function loadStudents(tutor) {
-            studentGrid.innerHTML = '';
-            
-            // Filtra os alunos pelo tutor atual
-            const alunosDoTutor = alunosData.alunos.filter(aluno => 
-                aluno.tutor.toLowerCase() === tutor.toLowerCase()
-            );
-            
-            if (alunosDoTutor.length === 0) {
-                studentGrid.innerHTML = '<div class="no-students">Nenhum aluno encontrado para este tutor.</div>';
-                return;
-            }
-            
-            // Ordena por número de chamada
-            alunosDoTutor.sort((a, b) => a.chamada - b.chamada);
-            
-            alunosDoTutor.forEach(aluno => {
-                const card = document.createElement('div');
-                card.className = 'student-card';
-                card.onclick = () => openStudentPage(aluno);
-                
-                card.innerHTML = `
-                    <div class="photo-container">
-                        <img src="${aluno.foto}" alt="${aluno.nome}" class="student-photo" onerror="this.src='placeholder.jpg'">
-                    </div>
-                    <div class="student-info">
-                        <h3>${aluno.nome}</h3>
-                        <p>Sala: ${aluno.sala.toUpperCase()}</p>
-                        <p>Chamada: ${aluno.chamada}</p>
-                    </div>
-                `;
-                
-                studentGrid.appendChild(card);
-            });
-        }
-        
-        // Abre a página do aluno no modal
-        function openStudentPage(aluno) {
-            const url = `https://professorgaldino.github.io/${aluno.sala}/a${aluno.chamada}.html`;
-            studentFrame.src = url;
-            modal.style.display = 'block';
-        }
-        
-        // Fecha o modal
-        function closeModal() {
-            modal.style.display = 'none';
-            studentFrame.src = '';
-        }
-        
-        // Fecha o modal ao clicar fora
-        window.onclick = function(event) {
-            if (event.target === modal) {
-                closeModal();
-            }
-        }
-        
-        // Capitaliza a primeira letra de uma string
-        function capitalizeFirstLetter(string) {
-            return string.charAt(0).toUpperCase() + string.slice(1);
-        }
-    </script>
+      }
+    }
+
+    const validUsers = {
+      'beatrizm': 'senha123', 'cristiane': 'senha123', 'rebeca': 'senha123', 'alinea': 'senha123', 'mara': 'senha123',
+      'fabiana': 'senha123', 'alequissandro': 'senha123', 'david': 'senha123', 'renato': 'senha123', 'beatrizef': 'senha123',
+      'daniel': 'senha123', 'rose': 'senha123', 'cecilia': 'senha123', 'alineh': 'senha123', 'augusto': 'senha123',
+      'juliana': 'senha123', 'ana': 'senha123', 'luan': 'senha123', 'elida': 'senha123', 'guilherme': 'senha123',
+      'everton': 'senha123', 'gabrielnero': 'senha123', 'josi': 'senha123', 'edivaldo': 'senha123', 'gabrielmarques': 'senha123',
+      'marcia': 'senha123', 'dener': 'senha123', 'monica': 'senha123', 'josias': 'senha123', 'fernando': 'senha123'
+    };
+
+    function getTutorFullName(username) {
+      const tutorNames = {
+        'beatrizm': 'Beatriz M', 'cristiane': 'Cristiane', 'rebeca': 'Rebeca', 'alinea': 'Aline A', 'mara': 'Mara',
+        'fabiana': 'Fabiana', 'alequissandro': 'Alequissandro', 'david': 'David', 'renato': 'Renato', 'beatrizef': 'Beatriz EF',
+        'daniel': 'Daniel', 'rose': 'Rose', 'cecilia': 'Cecília', 'alineh': 'Aline H', 'augusto': 'Augusto',
+        'juliana': 'Juliana', 'ana': 'Ana', 'luan': 'Luan', 'elida': 'Elida', 'guilherme': 'Guilherme',
+        'everton': 'Everton', 'gabrielnero': 'Gabriel Nero', 'josi': 'Josi', 'edivaldo': 'Edivaldo', 'gabrielmarques': 'Gabriel Marques',
+        'marcia': 'Marcia', 'dener': 'Dener', 'monica': 'Monica', 'josias': 'Josias', 'fernando': 'Fernando'
+      };
+      return tutorNames[username] || username;
+    }
+
+    loginForm.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const username = document.getElementById('username').value.toLowerCase();
+      const password = document.getElementById('password').value;
+
+      await loadAlunosData();
+
+      if (validUsers[username] && validUsers[username] === password) {
+        currentTutor = username;
+        loginContainer.style.display = 'none';
+        studentsContainer.style.display = 'block';
+        welcomeMessage.textContent = `Bem-vindo(a), ${getTutorFullName(username)}! Seus tutorados:`;
+        loadStudents(username);
+      } else {
+        alert('Usuário ou senha incorretos!');
+      }
+    });
+
+    function loadStudents(tutor) {
+      studentGrid.innerHTML = '';
+      const alunosDoTutor = alunosData.alunos.filter(aluno => aluno.tutor.toLowerCase() === tutor.toLowerCase());
+
+      if (alunosDoTutor.length === 0) {
+        studentGrid.innerHTML = '<div class="no-students">Nenhum aluno encontrado para este tutor.</div>';
+        return;
+      }
+
+      alunosDoTutor.sort((a, b) => a.chamada - b.chamada);
+
+      alunosDoTutor.forEach(aluno => {
+        const card = document.createElement('div');
+        card.className = 'student-card';
+        card.onclick = () => openStudentPage(aluno);
+        card.innerHTML = `
+          <div class="photo-container">
+            <img src="${aluno.foto}" alt="${aluno.nome}" class="student-photo" onerror="this.src='placeholder.jpg'">
+          </div>
+          <div class="student-info">
+            <h3>${aluno.nome}</h3>
+            <p>Sala: ${aluno.sala.toUpperCase()}</p>
+            <p>Chamada: ${aluno.chamada}</p>
+          </div>
+        `;
+        studentGrid.appendChild(card);
+      });
+    }
+
+    function openStudentPage(aluno) {
+      const url = `https://professorgaldino.github.io/${aluno.sala}/a${aluno.chamada}.html`;
+      studentFrame.src = url;
+      modal.style.display = 'block';
+    }
+
+    function closeModal() {
+      modal.style.display = 'none';
+      studentFrame.src = '';
+    }
+
+    window.onclick = function(event) {
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
+  </script>
 </body>
 </html>
