@@ -154,10 +154,15 @@
         card.innerHTML = `
           <div class="photo-container">
             <img 
-              src="https://professorgaldino.github.io/fotos/${aluno.foto.replace(/\s+/g, '%20').replace(/ *\.jpg$/, '.jpg')}" 
+              src="https://professorgaldino.github.io/fotos/${encodeURIComponent(aluno.foto)}" 
               alt="${aluno.nome}" 
               class="student-photo" 
-              onerror="this.onerror=null; this.src='https://professorgaldino.github.io/fotos/${aluno.foto.replace(/\s+/g, '%20').replace(/\.jpg$/, ' .jpg')}'"
+              onerror="this.onerror=null;
+                       this.src='https://professorgaldino.github.io/fotos/${encodeURIComponent(aluno.foto.replace(/\.jpg$/, ' .jpg'))}';
+                       this.onerror=function(){
+                        this.onerror=null;
+                        this.src='https://professorgaldino.github.io/fotos/${encodeURIComponent(aluno.foto.replace(/\.jpg$/, '_.jpg'))}';
+             }"
             />
           </div>
           <div class="student-info">
