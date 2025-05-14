@@ -129,7 +129,7 @@
         currentTutor = username;
         loginContainer.style.display = 'none';
         studentsContainer.style.display = 'block';
-        welcomeMessage.textContent = `Bem-vindo(a), ${getTutorFullName(username)}! Seus tutorados:`;
+        welcomeMessage.textContent = `Bem-vindo(a), <a href="https://professorgaldino.github.io/sitetv/ferramentas.html" target="_blank"> ${getTutorFullName(username)}! Seus tutorados:`;
         loadStudents(username);
       } else {
         alert('Usuário ou senha incorretos!');
