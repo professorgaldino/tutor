@@ -2256,6 +2256,13 @@
     },
     {
       "sala": "7c",
+      "chamada": 39,
+      "nome": "MARYA FERNANDA DOS SANTOS CAMARGO SEBASTIÃO",
+      "tutor": "Luan",
+      "foto": "MARYA FERNANDA DOS SANTOS CAMARGO SEBASTIÃO.jpg"
+    },
+    {
+      "sala": "7c",
       "chamada": 40,
       "nome": "ELOAH CRISTINY ANDRADE DE SOUZA",
       "tutor": "—",
@@ -3219,6 +3226,13 @@
       "nome": "VITÓRIA GOMES DE FREITAS",
       "tutor": "Elida",
       "foto": "VITÓRIA GOMES DE FREITAS.jpg"
+    },
+    {
+      "sala": "9a",
+      "chamada": 33,
+      "nome": "MARIA CLARA DE SALES FARIA",
+      "tutor": "Luan",
+      "foto": "MARIA CLARA DE SALES FARIA.jpg"
     },
     {
       "sala": "9b",
