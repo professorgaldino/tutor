@@ -3061,6 +3061,13 @@
     },
     {
       "sala": "9a",
+      "chamada": 4,
+      "nome": "CARLOS EDUARDO MIGUEL LOSSANI",
+      "tutor": "Ana",
+      "foto": "CARLOS EDUARDO MIGUEL LOSSANI.jpg"
+    },
+    {
+      "sala": "9a",
       "chamada": 5,
       "nome": "ELOÍSA AMARO MACEDO",
       "tutor": "Elida",
