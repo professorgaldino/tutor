@@ -2300,7 +2300,7 @@
       "sala": "8a",
       "chamada": 3,
       "nome": "ANA CLARA FERONATTO",
-      "tutor": "Aline H.",
+      "tutor": "Aline H",
       "foto": "ANA CLARA FERONATTO.jpg"
     },
     {
@@ -2531,7 +2531,7 @@
       "sala": "8a",
       "chamada": 43,
       "nome": "MIKAELLA RIBEIRO DE FARIAS",
-      "tutor": "—",
+      "tutor": "Aline H",
       "foto": "MIKAELLA RIBEIRO DE FARIAS.jpg"
     },
     {
@@ -2785,6 +2785,13 @@
       "nome": "CAMILA LOPES ATAIDE",
       "tutor": "—",
       "foto": "CAMILA LOPES ATAIDE.jpg"
+    },
+    {
+      "sala": "8b",
+      "chamada": 41,
+      "nome": "LORENNA CRISTINA COUTINHO CARLOS",
+      "tutor": "Aline H",
+      "foto": "LORENNA CRISTINA COUTINHO CARLOS.jpg"
     },
     {
       "sala": "8c",
