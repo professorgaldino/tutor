@@ -940,6 +940,13 @@
     },
     {
       "sala": "6a",
+      "chamada": 24,
+      "nome": "KAUÃ SANTOS SILVA",
+      "tutor": "Cristiane",
+      "foto": "KAUÃ SANTOS SILVA.jpg"
+    },
+    {
+      "sala": "6a",
       "chamada": 25,
       "nome": "KEVIN LUCAS LOURENTE DE PAULA",
       "tutor": "Mara",
@@ -1042,6 +1049,13 @@
       "nome": "KÊMY FRANCIELLE SILVA",
       "tutor": "Fabiana",
       "foto": "KÊMY FRANCIELLE SILVA.jpg"
+    },
+    {
+      "sala": "6a",
+      "chamada": 48,
+      "nome": "SOPHIA VITÓRIA LUÍS FERREIRA",
+      "tutor": "Cristiane",
+      "foto": "SOPHIA VITÓRIA LUÍS FERREIRA.jpg"
     },
     {
       "sala": "6b",
