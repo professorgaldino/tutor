@@ -1,228 +1,331 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portal de Tutores</title>
-  <style>
-    * { box-sizing: border-box; font-family: 'Arial', sans-serif; }
-    body { margin: 0; padding: 0; background-color: #f5f5f5; }
-    .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
-    header { text-align: center; margin-bottom: 30px; }
-    .logo { max-width: 200px; height: auto; }
-    .login-container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); max-width: 400px; margin: 0 auto; }
-    .form-group { margin-bottom: 20px; }
-    label { display: block; margin-bottom: 5px; font-weight: bold; }
-    input { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 4px; }
-    button { background-color: #2259f2; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; width: 100%; }
-    .students-container { display: none; margin-top: 30px; }
-    .student-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 25px; }
-    .student-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 3px 10px rgba(0,0,0,0.1); text-align: center; cursor: pointer; transition: transform 0.3s; padding: 15px; }
-    .student-card:hover { transform: translateY(-5px); box-shadow: 0 5px 15px rgba(0,0,0,0.2); }
-    .photo-container { width: 120px; height: 120px; margin: 0 auto 15px; border-radius: 50%; overflow: hidden; border: 3px solid #4CAF50; display: flex; align-items: center; justify-content: center; background-color: #f0f0f0; }
-    .student-photo { width: 100%; height: 100%; object-fit: cover; }
-    .student-info { padding: 0 5px; }
-    .student-info h3 { margin: 0 0 5px 0; color: #333; font-size: 16px; }
-    .student-info p { margin: 3px 0; color: #666; font-size: 14px; }
-    .modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); z-index: 1000; }
-    .modal-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: 80%; background: white; border-radius: 8px; overflow: hidden; }
-    .close-btn { position: absolute; top: 10px; right: 20px; font-size: 30px; color: #333; cursor: pointer; z-index: 1001; }
-    iframe { width: 100%; height: 100%; border: none; }
-    .welcome-message { text-align: center; margin-bottom: 30px; font-size: 20px; color: #2c3e50; padding: 10px; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    .no-students { text-align: center; grid-column: 1 / -1; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal do Tutor</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #eef2ff, #f8fafc);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.logo {
+  width: 130px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #1f2937;
+}
+
+/* LOGIN */
+.login-box {
+  max-width: 420px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.input-group {
+  margin-bottom: 18px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4f46e5;
+}
+
+/* BOTÃO */
+button.login {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button.login:hover {
+  background: #4338ca;
+}
+
+/* PORTAL */
+#portal {
+  display: none;
+}
+
+#titulo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* CHIP TUTOR */
+.tutor-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #4f46e5, #6366f1);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.tutor-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(79,70,229,0.3);
+}
+
+/* GRID ALUNOS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+</style>
 </head>
+
 <body>
-  <div class="container">
-    <header>
-      <img src="logoescola.png" alt="Logo da Escola" class="logo">
-      <h1>Portal de Tutores</h1>
-    </header>
 
-    <div id="login-container" class="login-container">
-      <h2>Login do Tutor</h2>
-      <form id="login-form">
-        <div class="form-group">
-          <label for="username">Usuário:</label>
-          <input type="text" id="username" required placeholder="Ex: david, emeline">
-        </div>
-        <div class="form-group">
-          <label for="password">Senha:</label>
-          <input type="password" id="password" required placeholder="Sua senha">
-        </div>
-        <button type="submit">Entrar</button><br />
-        <a href="https://wa.me/5519996470380?text=Estou%20com%20problemas%20na%20plataforma%20Therezinha%20Villani" target="_blank">
-          <button type="button" style="background-color: #25D366; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
-            Reportar Problema
-          </button>
-        </a>
-      </form>
-    </div>
+<div class="container">
 
-    <div id="students-container" class="students-container">
-      <div id="welcome-message" class="welcome-message"></div>
-      <div id="student-grid" class="student-grid"></div>
-    </div>
+<header>
+  <img src="logoescola.png" class="logo">
+  <h1>Portal do Tutor</h1>
+</header>
+
+<!-- LOGIN -->
+<div id="login" class="login-box">
+
+  <div class="input-group">
+    <label>Usuário</label>
+    <input type="text" id="user">
   </div>
 
-  <div id="student-modal" class="modal">
-    <span class="close-btn" onclick="closeModal()">&times;</span>
-    <div class="modal-content">
-      <iframe id="student-frame" src=""></iframe>
-    </div>
+  <div class="input-group">
+    <label>Senha</label>
+    <input type="password" id="senha">
   </div>
 
-  <script>
-    const loginForm = document.getElementById('login-form');
-    const loginContainer = document.getElementById('login-container');
-    const studentsContainer = document.getElementById('students-container');
-    const studentGrid = document.getElementById('student-grid');
-    const modal = document.getElementById('student-modal');
-    const studentFrame = document.getElementById('student-frame');
-    const welcomeMessage = document.getElementById('welcome-message');
+  <button class="login" onclick="login()">Entrar</button>
 
-    let alunosData = [];
-    let currentTutor = '';
+</div>
 
-    async function loadAlunosData() {
-      try {
-        const response = await fetch('alunossalas.json');
-        if (!response.ok) throw new Error('Erro ao carregar os dados dos alunos');
-        alunosData = await response.json();
-      } catch (error) {
-        console.error('Erro:', error);
-        alert('Erro ao carregar os dados dos alunos. Verifique o console.');
-        alunosData = {
-          "alunos": [
-            { "nome": "João Silva", "chamada": 5, "sala": "6a", "foto": "João Silva.jpg", "tutor": "david" },
-            { "nome": "Maria Oliveira", "chamada": 12, "sala": "7b", "foto": "Maria Oliveira.jpg", "tutor": "emeline" }
-          ]
-        };
-      }
-    }
+<!-- PORTAL -->
+<div id="portal">
 
-    const validUsers = {
-      'beatriz m': 'B@villani',
-      'sandra': 'S@villani',
-      'giuliano': 'G@villani',
-      'erica': 'E@villani',
-      'celso': 'C@villani',
-      'aline a': 'A@villani',
-      'mara': 'M@villani',
-      'fabiana': 'F@villani',
-      'alequissandro': 'A@villani',
-      'david': 'D@villani',
-      'nivaldo': 'N@villani',
-      'beatriz ef': 'B@villani',
-      'daniel': 'D@villani',
-      'flavio': 'F@villani',
-      'cecilia': 'C@villani',
-      'aline h': 'A@villani',
-      'augusto': 'A@villani',
-      'juliana': 'J@villani',
-      'ana': 'A@villani',
-      'valdo': 'V@villani',
-      'luan': 'L@villani',
-      'elida': 'E@villani',
-      'guilherme': 'G@villani',
-      'everton': 'E@villani',
-      'gabriel nero': 'G@villani',
-      'josi': 'J@villani',
-      'edivaldo': 'E@villani',
-      'gabriel marques': 'G@villani',
-      'marcia': 'M@villani',
-      'dener': 'D@villani',
-      'monica': 'M@villani',
-      'elizier': 'E@villani',
-      'fernando': 'F@villani',
-      
-    };
+  <h2 id="titulo"></h2>
+  <div id="alunos" class="grid"></div>
 
+</div>
 
-    const tutorNames = {
-      'beatriz m': 'Beatriz M', 'giovana': 'Giovana', 'valdo': 'Valdo', 'rebeca': 'Rebeca', 'aline a': 'Aline A', 'mara': 'Mara',
-      'fabiana': 'Fabiana', 'alequissandro': 'Alequissandro', 'david': 'David', 'renato': 'Renato', 'beatriz ef': 'Beatriz EF',
-      'daniel': 'Daniel', 'rose': 'Rose', 'cecilia': 'Cecília', 'aline h': 'Aline H', 'augusto': 'Augusto',
-      'juliana': 'Juliana', 'ana': 'Ana', 'luan': 'Luan', 'elida': 'Elida', 'guilherme': 'Guilherme', 'erica': 'Erica',
-      'everton': 'Everton', 'gabriel nero': 'Gabriel Nero', 'josi': 'Josi', 'edivaldo': 'Edivaldo', 'gabriel marques': 'Gabriel Marques',
-      'marcia': 'Marcia', 'dener': 'Dener', 'monica': 'Monica', 'josias': 'Josias', 'fernando': 'Fernando'
-    };
+</div>
 
-    function getTutorFullName(username) {
-      return tutorNames[username] || username;
-    }
+<script>
 
-    loginForm.addEventListener('submit', async function(e) {
-      e.preventDefault();
-      const username = document.getElementById('username').value.toLowerCase();
-      const password = document.getElementById('password').value;
+const API = "https://script.google.com/macros/s/AKfycbzMz2KkT2rF4pFG5skyztvtHHVms1LMXfGjLMWj2chY-zYbPPqN3PpHLknqE7Rj651Cjw/exec";
 
-      await loadAlunosData();
+/* USUÁRIOS (LOGIN → SENHA) */
+const usuarios = {
+ 'beatriz m': 'B@villani',
+ 'sandra': 'S@villani',
+ 'giuliano': 'G@villani',
+ 'erica': 'E@villani',
+ 'celso': 'C@villani',
+ 'aline a': 'A@villani',
+ 'mara': 'M@villani',
+ 'fabiana': 'F@villani',
+ 'alequissandro': 'A@villani',
+ 'david': 'D@villani',
+ 'nivaldo': 'N@villani',
+ 'beatriz ef': 'B@villani',
+ 'daniel': 'D@villani',
+ 'flavio': 'F@villani',
+ 'cecilia': 'C@villani',
+ 'aline h': 'A@villani',
+ 'augusto': 'A@villani',
+ 'juliana': 'J@villani',
+ 'ana': 'A@villani',
+ 'valdo': 'V@villani',
+ 'luan': 'L@villani',
+ 'elida': 'E@villani',
+ 'guilherme': 'G@villani',
+ 'everton': 'E@villani',
+ 'gabriel nero': 'G@villani',
+ 'josi': 'J@villani',
+ 'edivaldo': 'E@villani',
+ 'gabriel marques': 'G@villani',
+ 'marcia': 'M@villani',
+ 'dener': 'D@villani',
+ 'monica': 'M@villani',
+ 'elizier': 'E@villani',
+ 'fernando': 'F@villani'
+};
 
-      if (validUsers[username] && validUsers[username] === password) {
-        currentTutor = username;
-        loginContainer.style.display = 'none';
-        studentsContainer.style.display = 'block';
-        welcomeMessage.innerHTML = `Bem-vindo(a), <a href="https://professorgaldino.github.io/sitetv/ferramentas.html" target="_blank">${getTutorFullName(username)}</a>! Seus tutorados:`;
-        loadStudents(username);
-      } else {
-        alert('Usuário ou senha incorretos!');
-      }
-    });
-/*
-    function loadStudents(tutor) {
-      studentGrid.innerHTML = '';
-      const alunosDoTutor = alunosData.alunos.filter(aluno => aluno.tutor.toLowerCase() === tutor.toLowerCase());
+/* 🔥 MAPA CORRETO: LOGIN → NOME DA PLANILHA */
+const mapaTutores = {
+  "aline a": "ALINE FABIANA",
+  "aline h": "ALINE LONGO",
+  "beatriz m": "BEATRIZ M.",
+  "giuliano": "GUILHERME",
+  "erica": "ÉRICA",
+  "celso": "CELSO",
+  "sandra": "SANDRA",
+  "flavio": "FLÁVIO",
+  "david": "DAVID",
+  "daniel": "DANIEL",
+  "augusto": "AUGUSTO",
+  "juliana": "JULIANA",
+  "ana": "ANA",
+  "valdo": "VALDO",
+  "luan": "LUAN",
+  "elida": "ÉLIDA",
+  "guilherme": "GUILHERME",
+  "everton": "EVERTON",
+  "fernando": "FERNANDO",
+  "marcia": "MÁRCIA",
+  "monica": "MÔNICA",
+  "dener": "DENER",
+  "josi": "JOSI",
+  "edivaldo": "EDIVALDO",
+  "gabriel nero": "NERO",
+  "gabriel marques": "MARQUES",
+  "nivaldo": "NIVALDO"
+};
 
-      if (alunosDoTutor.length === 0) {
-        studentGrid.innerHTML = '<div class="no-students">Nenhum aluno encontrado para este tutor.</div>';
-        return;
-      }
+/* 🔧 NORMALIZAÇÃO */
+function norm(texto) {
+  return (texto || "")
+    .toString()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\./g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
-      alunosDoTutor.sort((a, b) => a.chamada - b.chamada);
+/* LOGIN */
+function login() {
+  const u = norm(document.getElementById("user").value);
+  const s = document.getElementById("senha").value;
 
-      alunosDoTutor.forEach(aluno => {
-        const card = document.createElement('div');
-        card.className = 'student-card';
-        card.onclick = () => openStudentPage(aluno);
-        card.innerHTML = `
-          <div class="photo-container">
-            <img 
-              src="https://professorgaldino.github.io/fotos/${encodeURIComponent(aluno.foto)}" 
-              alt="${aluno.nome}" 
-              class="student-photo" 
-              onerror="this.onerror=null;
-                       this.src='https://professorgaldino.github.io/fotos/${encodeURIComponent(aluno.foto.replace(/\.jpg$/, ' .jpg'))}';
-                       this.onerror=function(){
-                        this.onerror=null;
-                        this.src='https://professorgaldino.github.io/fotos/${encodeURIComponent(aluno.foto.replace(/\.jpg$/, '_.jpg'))}';
-             }"
-            />
-          </div>
-          <div class="student-info">
-            <h3>${aluno.nome}</h3>
-            <p>Sala: ${aluno.sala.toUpperCase()}</p>
-            <p>Chamada: ${aluno.chamada}</p>
-          </div>
-        `;
-        studentGrid.appendChild(card);
-      });
-    }
-*/
-    function openStudentPage(aluno) {
-      studentFrame.src = `https://professorgaldino.github.io/${aluno.sala}/?id=${aluno.chamada}`;
-      modal.style.display = 'block';
-    }
+  if (usuarios[u] && usuarios[u] === s) {
 
-    function closeModal() {
-      modal.style.display = 'none';
-      studentFrame.src = '';
-    }
-  </script>
+    document.getElementById("login").style.display = "none";
+    document.getElementById("portal").style.display = "block";
+
+    const nomeExibido = document.getElementById("user").value;
+
+    document.getElementById("titulo").innerHTML = `
+      Tutor:
+      <span class="tutor-chip" onclick="abrirFerramentas()">
+        ${nomeExibido}
+      </span>
+    `;
+
+    carregarAlunos(u);
+
+  } else {
+    alert("Usuário ou senha incorretos");
+  }
+}
+
+/* FERRAMENTAS */
+function abrirFerramentas() {
+  window.open("https://professorgaldino.github.io/sitetv/ferramentas.html", "_blank");
+}
+
+/* CARREGAR ALUNOS */
+async function carregarAlunos(loginTutor) {
+
+  const res = await fetch(API);
+  const data = await res.json();
+
+  const nomePlanilha = mapaTutores[loginTutor];
+
+  const filtro = norm(nomePlanilha);
+
+  const filtrados = data.filter(a => {
+    return norm(a.tutor) === filtro;
+  });
+
+  const div = document.getElementById("alunos");
+  div.innerHTML = "";
+
+  filtrados.forEach(a => {
+
+    const foto = a.foto
+      ? "https://lh3.googleusercontent.com/d/" + a.foto
+      : "";
+
+    div.innerHTML += `
+      <div class="card">
+        <img src="${foto}" onerror="this.style.display='none'">
+        <h4>${a.nome}</h4>
+        <p>${a.sala}</p>
+      </div>
+    `;
+  });
+}
+
+</script>
+
 </body>
 </html>
-
-
-
-
-
