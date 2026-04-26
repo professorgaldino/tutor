@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portal do Tutor</title>
+<title>Portal do Tutor 2</title>
 
 <style>
 * {
@@ -71,6 +71,28 @@ input:focus {
   border-color: #4f46e5;
 }
 
+/* SENHA */
+.senha-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.toggle-senha {
+  background: #f3f4f6;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.toggle-senha:hover {
+  background: #e5e7eb;
+}
+
 /* BOTÃO */
 button.login {
   width: 100%;
@@ -95,9 +117,10 @@ button.login:hover {
 #titulo {
   text-align: center;
   margin: 20px 0;
+  text-transform: uppercase;
 }
 
-/* CHIP TUTOR */
+/* CHIP */
 .tutor-chip {
   display: inline-flex;
   align-items: center;
@@ -107,16 +130,10 @@ button.login:hover {
   padding: 8px 16px;
   border-radius: 999px;
   cursor: pointer;
-  font-weight: 500;
-  transition: 0.2s;
+  font-weight: 600;
 }
 
-.tutor-chip:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(79,70,229,0.3);
-}
-
-/* GRID ALUNOS */
+/* GRID */
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -138,10 +155,27 @@ button.login:hover {
   object-fit: cover;
   margin-bottom: 10px;
 }
+
+/* LOADING OVERLAY */
+#loading {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(255,255,255,0.85);
+  backdrop-filter: blur(6px);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1f2937;
+}
 </style>
 </head>
 
 <body>
+
+<div id="loading">Carregando seus tutorados, aguarde...</div>
 
 <div class="container">
 
@@ -160,7 +194,13 @@ button.login:hover {
 
   <div class="input-group">
     <label>Senha</label>
-    <input type="password" id="senha">
+
+    <div class="senha-box">
+      <input type="password" id="senha">
+      <button class="toggle-senha" type="button" onclick="toggleSenha()">
+        Mostrar
+      </button>
+    </div>
   </div>
 
   <button class="login" onclick="login()">Entrar</button>
@@ -181,7 +221,6 @@ button.login:hover {
 
 const API = "https://script.google.com/macros/s/AKfycbzMz2KkT2rF4pFG5skyztvtHHVms1LMXfGjLMWj2chY-zYbPPqN3PpHLknqE7Rj651Cjw/exec";
 
-/* USUÁRIOS (LOGIN → SENHA) */
 const usuarios = {
  'beatriz m': 'B@villani',
  'sandra': 'S@villani',
@@ -218,7 +257,6 @@ const usuarios = {
  'fernando': 'F@villani'
 };
 
-/* 🔥 MAPA CORRETO: LOGIN → NOME DA PLANILHA */
 const mapaTutores = {
   "aline a": "ALINE FABIANA",
   "aline h": "ALINE LONGO",
@@ -249,20 +287,24 @@ const mapaTutores = {
   "nivaldo": "NIVALDO"
 };
 
-/* 🔧 NORMALIZAÇÃO */
-function norm(texto) {
-  return (texto || "")
+function norm(t) {
+  return (t || "")
     .toString()
     .toLowerCase()
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/\./g, "")
-    .replace(/\s+/g, " ")
     .trim();
 }
 
+/* TOGGLE SENHA */
+function toggleSenha() {
+  const input = document.getElementById("senha");
+  input.type = input.type === "password" ? "text" : "password";
+}
+
 /* LOGIN */
-function login() {
+async function login() {
   const u = norm(document.getElementById("user").value);
   const s = document.getElementById("senha").value;
 
@@ -271,40 +313,37 @@ function login() {
     document.getElementById("login").style.display = "none";
     document.getElementById("portal").style.display = "block";
 
-    const nomeExibido = document.getElementById("user").value;
-
     document.getElementById("titulo").innerHTML = `
-      Tutor:
-      <span class="tutor-chip" onclick="abrirFerramentas()">
-        ${nomeExibido}
+      Tutor: <span class="tutor-chip" onclick="abrirFerramentas()">
+      ${u.toUpperCase()}
       </span>
     `;
 
-    carregarAlunos(u);
+    document.getElementById("loading").style.display = "flex";
+
+    await carregarAlunos(u);
+
+    document.getElementById("loading").style.display = "none";
 
   } else {
     alert("Usuário ou senha incorretos");
   }
 }
 
-/* FERRAMENTAS */
 function abrirFerramentas() {
   window.open("https://professorgaldino.github.io/sitetv/ferramentas.html", "_blank");
 }
 
-/* CARREGAR ALUNOS */
+/* CARREGAR */
 async function carregarAlunos(loginTutor) {
 
   const res = await fetch(API);
   const data = await res.json();
 
   const nomePlanilha = mapaTutores[loginTutor];
-
   const filtro = norm(nomePlanilha);
 
-  const filtrados = data.filter(a => {
-    return norm(a.tutor) === filtro;
-  });
+  const filtrados = data.filter(a => norm(a.tutor) === filtro);
 
   const div = document.getElementById("alunos");
   div.innerHTML = "";
